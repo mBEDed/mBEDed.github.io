@@ -2421,6 +2421,35 @@ a.video-play-btn {
 
 ----------------------------------------------------------------------------- */
 
+.video-container {
+  position: absolute;
+  top: 0px;
+  left: 0px; 
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 30px;
+  position: relative;
+  z-index: 1;
+}
+.video-container:after {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      content: "";
+      background-color: #012;
+      opacity: 0.3;
+    }
+video {
+			position: absolute;
+			z-index: 10;
+      height: 100%;
+			max-width: none;
+		}
 
 .cs-bg {
   background-image: url(../img/abt.jpg);
@@ -2463,7 +2492,7 @@ a.video-play-btn {
   }
 }
 
-.cs-text-para {
+.cs-text-para{
   text-align: justify;
   text-justify: inter-word;
   padding: 50px;
@@ -2471,7 +2500,7 @@ a.video-play-btn {
   padding-right: 0px;
 }
 
-.cs-text p {
+.cs-text p .ul .li{
   font-size: 15px;
   line-height: 1.6;
   margin-bottom: 10px;

@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+jspm_packages/
+
+# Production
+build/
+
+# Misc
+*.sublime-project
+*.sublime-workspace
+
+# Virtualenv
+venv/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Thumbnails
+Thumbs.db
+
+# Cache
+.cache/
+
+# Temp files
+*.tmp
+
+# Hidden
+*~
+
+# Others
+*.lock
+*.swp
