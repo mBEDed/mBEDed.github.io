@@ -512,7 +512,7 @@ a.boxed-btn {
   font-family: 'Poppins', sans-serif;
   display: inline-block;
   background-color: #0D8;
-  color: #fff;
+  color: #012;
   padding: 10px 20px;
 }
 
@@ -1068,25 +1068,56 @@ h2.widget-title:after {
   margin-bottom: 0;
 }
 
+.footer-box.subscribe form {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+}
+
 .footer-box.subscribe form input[type=email] {
-  border: none;
+  font-family: 'Poppins', sans-serif;
+  border: 2px solid #0D8;
   background-color: #012738;
-  width: 78%;
-  padding: 15px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  flex: 1;
+  padding: 14px 20px;
+  border-radius: 24px 8px 8px 24px;
   color: #fff;
+  font-size: 14px;
+  transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 2px 8px rgba(0, 13, 8, 0.1);
+  height: 48px;
+  min-height: 48px;
+}
+
+.footer-box.subscribe form input[type=email]:focus {
+  outline: none;
+  border-color: #0D8;
+}
+
+.footer-box.subscribe form input[type=email]::placeholder {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .footer-box.subscribe form button {
-  width: 20%;
-  border: none;
-  background-color: #012738;
-  color: #0D8;
-  padding: 14px 0;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+  font-family: 'Poppins', sans-serif;
+  width: 48px;
+  height: 48px;
+  min-height: 48px;
+  min-width: 48px;
+  border: 2px solid #0D8;
+  background-color: #0D8;
+  color: #012;
+  padding: 0;
+  border-radius: 8px 24px 24px 8px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 2px 8px rgba(0, 13, 8, 0.1);
+  flex-shrink: 0;
 }
 
 .footer-box.subscribe form button:focus {
@@ -1293,8 +1324,16 @@ a.tof-btn:hover i {
 }
 
 .footer-box.subscribe form button:hover {
-  background-color: #0D8;
-  color: #012;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #0D8;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 13, 8, 0.1);
+}
+
+.footer-box.subscribe form button:active {
+  transform: scale(0.98);
+  transition: all 0.1s ease-out;
 }
 
 .social-icons ul li:hover a {
@@ -1617,15 +1656,14 @@ html, body {
 }
 
 input[type="submit"] {
+  font-family: 'Poppins', sans-serif;
   background-color: #0D8;
   color: #012;
-  font-weight: 700;
-  text-transform: uppercase;
   font-size: 15px;
   border: none !important;
   cursor: pointer;
-  padding: 15px 25px;
-  border-radius: 3px;
+  padding: 10px 20px;
+  border-radius: 50px;
 }
 
 .homepage-bg-1 {
@@ -3365,7 +3403,6 @@ table.order-details tbody td {
   border: none;
   padding: 14px 28px;
   font-size: 14px;
-  font-weight: 600;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -3405,7 +3442,6 @@ table.order-details tbody td {
   height: 48px;
   min-height: 48px;
   font-size: 14px;
-  font-weight: 600;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
