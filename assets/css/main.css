@@ -2444,6 +2444,7 @@ a.video-play-btn {
   background-position: left;
   z-index: 1;
   overflow: hidden;
+  border-radius: 30px;
 }
 
 .about-text {
