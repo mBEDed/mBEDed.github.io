@@ -311,11 +311,9 @@
 	<script src="assets/js/jquery.meanmenu.min.js"></script>
 	<!-- sticker js -->
 	<script src="assets/js/sticker.js"></script>
-	<!-- form validation js -->
-	<script src="assets/js/form-validate.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
-	
+
 	<!-- Contact and Newsletter form handlers -->
 	<script>
 		var submitted = false;
@@ -329,6 +327,15 @@
 				statusDiv.innerHTML = '';
 			}, 3000);
 		}
+		
+		// Add event listeners when DOM is loaded
+		document.addEventListener('DOMContentLoaded', function() {
+			const newsletterForm = document.getElementById('newsletter-form');
+			
+			if (newsletterForm) {
+				newsletterForm.addEventListener('submit', handleNewsletterSubmit);
+			}
+		});
 	</script>
 
 </body>

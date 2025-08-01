@@ -287,6 +287,15 @@
 				statusDiv.innerHTML = '';
 			}, 3000);
 		}
+		
+		// Add event listeners when DOM is loaded
+		document.addEventListener('DOMContentLoaded', function() {
+			const newsletterForm = document.getElementById('newsletter-form');
+			
+			if (newsletterForm) {
+				newsletterForm.addEventListener('submit', handleNewsletterSubmit);
+			}
+		});
 	</script>
 
 </body>
