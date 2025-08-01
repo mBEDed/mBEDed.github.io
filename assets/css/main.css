@@ -1887,7 +1887,7 @@ div.owl-controls, .owl-controls div {
   height: 200px;
   background-size: cover;
   background-position: center;
-  border-radius: 10px;
+  border-radius: 30px;
   background-color: #fff;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
@@ -2415,10 +2415,9 @@ a.video-play-btn {
   content: "";
   background-size: cover;
   background-position: center;
-  border-top-left-radius: 5px;
+  border-radius: 30px;
   -webkit-box-shadow: 0 0 20px #fff;
   box-shadow: 0 0 20px #fff;
-  border-bottom-left-radius: 5px;
 }
 
 @media only screen and (max-width: 1023.96px) {
@@ -2429,10 +2428,9 @@ a.video-play-btn {
     width: 40%;
     height: 100%;
     content: "";
-    border-top-left-radius: 0px;
-    -webkit-box-shadow: 0 0 0px #fff;
-    box-shadow: 0 0 0px #fff;
-    border-bottom-left-radius: 0px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 0 20px #fff;
+    box-shadow: 0 0 20px #fff;
   }
 }
 
@@ -2444,6 +2442,7 @@ a.video-play-btn {
   background-position: left;
   z-index: 1;
   overflow: hidden;
+  border-radius: 30px;
 }
 
 .about-text {
@@ -2635,10 +2634,9 @@ video {
   content: "";
   background-size: cover;
   background-position: center;
-  border-top-left-radius: 5px;
+  border-radius: 30px;
   -webkit-box-shadow: 0 0 20px #fff;
   box-shadow: 0 0 20px #fff;
-  border-bottom-left-radius: 5px;
 }
 
 @media only screen and (max-width: 1023.96px) {
@@ -2649,10 +2647,9 @@ video {
     width: 40%;
     height: 100%;
     content: "";
-    border-top-left-radius: 0px;
-    -webkit-box-shadow: 0 0 0px #fff;
-    box-shadow: 0 0 0px #fff;
-    border-bottom-left-radius: 0px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 0 20px #fff;
+    box-shadow: 0 0 20px #fff;
   }
 }
 
@@ -2717,10 +2714,9 @@ video {
   content: "";
   background-size: cover;
   background-position: center;
-  border-top-left-radius: 5px;
+  border-radius: 30px;
   -webkit-box-shadow: 0 0 20px #fff;
   box-shadow: 0 0 20px #fff;
-  border-bottom-left-radius: 5px;
 }
 
 /* -----------------------------------------------------------------------------
@@ -2874,10 +2870,9 @@ video {
   content: "";
   background-size: cover;
   background-position: center;
-  border-top-left-radius: 5px;
+  border-radius: 30px;
   -webkit-box-shadow: 0 0 20px #fff;
   box-shadow: 0 0 20px #fff;
-  border-bottom-left-radius: 5px;
 }
 
 .team-bg-1 {
