@@ -1022,6 +1022,74 @@ a.mobile-show {
   padding: 30px 0;
 }
 
+/* Continuous Scrolling for Logo Carousel */
+.logo-carousel-inner {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.logo-scroll-track {
+  display: inline-flex;
+  animation: scroll 30s linear infinite;
+  gap: 60px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.logo-carousel-inner .single-logo-item {
+  flex-shrink: 0;
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+}
+
+.logo-carousel-inner:hover .logo-scroll-track {
+  animation-play-state: paused;
+}
+
+/* Continuous Scrolling for Client Carousel - Opposite Direction */
+.client-carousel-inner {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.client-scroll-track {
+  display: inline-flex;
+  animation: scroll-reverse 30s linear infinite;
+  gap: 60px;
+}
+
+@keyframes scroll-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.client-carousel-inner .one-client-item {
+  flex-shrink: 0;
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+}
+
+.client-carousel-inner:hover .client-scroll-track {
+  animation-play-state: paused;
+}
+
 .footer-area {
   background-color: #012;
   color: #fff;
