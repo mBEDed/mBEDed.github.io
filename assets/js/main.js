@@ -52,72 +52,76 @@
             }
         });
 
-        // client carousel - converted to custom CSS animation
-        // No JavaScript needed for continuous scroll animation
-
-
-        // logo carousel - disabled Owl Carousel for continuous scroll
-        // Custom continuous scrolling implemented with CSS animations
-
-        // count up - animate when elements come into view
-        const animationDuration = 2500; // Slightly longer for smoother feel
-        
-        // Smooth easing function (ease-out-cubic for more natural feel)
-        const easeOutCubic = t => 1 - Math.pow(1 - t, 3);
-        
-        const animateCountUp = el => {
-            const countTo = parseInt(el.getAttribute('data-count') || el.innerHTML, 10);
-            const startTime = performance.now();
-            el.innerHTML = '0'; // Start from 0
-            
-            const updateCount = (currentTime) => {
-                const elapsed = currentTime - startTime;
-                const progress = Math.min(elapsed / animationDuration, 1);
-                
-                // Apply smooth easing
-                const easedProgress = easeOutCubic(progress);
-                const currentCount = Math.round(countTo * easedProgress);
-                
-                // Update display
-                el.innerHTML = currentCount;
-                
-                if (progress < 1) {
-                    requestAnimationFrame(updateCount);
-                } else {
-                    // Ensure final value is exact
-                    el.innerHTML = countTo;
-                    el.classList.add('animated'); // Mark as animated
+        // logo carousel
+        $(".client-carousel-inner").owlCarousel({
+            items: 4,
+            rtl: true,
+            loop: true,
+            autoplay: true,
+            margin: 30,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                600: {
+                    items: 3,
+                    nav: false
+                },
+                1000: {
+                    items: 4,
+                    nav: false,
+                    loop: true
                 }
-            };
-            
-            requestAnimationFrame(updateCount);
-        };
-        
-        // Intersection Observer for scroll-triggered animations
-        const countupEls = document.querySelectorAll('.timer');
-        
-        // Store original values
-        countupEls.forEach(el => {
-            if (!el.getAttribute('data-count')) {
-                el.setAttribute('data-count', el.innerHTML);
             }
-            el.innerHTML = '0'; // Start with 0
         });
-        
-        // Create observer
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting && !entry.target.classList.contains('animated')) {
-                    animateCountUp(entry.target);
+
+
+        // logo carousel
+        $(".logo-carousel-inner").owlCarousel({
+            items: 4,
+            loop: true,
+            autoplay: true,
+            margin: 30,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                600: {
+                    items: 3,
+                    nav: false
+                },
+                1000: {
+                    items: 4,
+                    nav: false,
+                    loop: true
                 }
-            });
-        }, {
-            threshold: 0.5, // Trigger when 50% of element is visible
-            rootMargin: '0px 0px -100px 0px' // Trigger a bit before fully visible
+            }
         });
-        
-        // Observe all counter elements
-        countupEls.forEach(el => observer.observe(el));
+
+        // count up
+        const animationDuration = 2000;
+        const frameDuration = 1000 / 60;
+        const totalFrames = Math.round(animationDuration / frameDuration);
+        const easeOutQuad = t => t * (2 - t);
+        const animateCountUp = el => {
+            let frame = 0;
+            const countTo = parseInt(el.innerHTML, 10);
+            const counter = setInterval(() => {
+                frame++;
+                const progress = easeOutQuad(frame / totalFrames);
+                const currentCount = Math.round(countTo * progress);
+                if (parseInt(el.innerHTML, 10) !== currentCount) {
+                    el.innerHTML = currentCount;
+                }
+                if (frame === totalFrames) {
+                    clearInterval(counter);
+                }
+            }, frameDuration);
+        };
+        const countupEls = document.querySelectorAll('.timer');
+        countupEls.forEach(animateCountUp);
 
 
         // count down
