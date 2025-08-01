@@ -252,10 +252,11 @@
 					<div class="footer-box subscribe">
 						<h2 class="widget-title">Subscribe</h2>
 						<p>Subscribe to our mailing list to get the latest updates.</p>
-						<form action="index.html">
-							<input type="email" placeholder="Email">
+						<form action="https://docs.google.com/forms/d/e/1FAIpQLSc29Fjn5V5jePMqiMM2GEJyRdbq23Z27tV8tywQ239a13UfVA/formResponse" method="POST" target="hidden_iframe" id="newsletter-form">
+							<input type="email" name="entry.1014518782" placeholder="Email" required>
 							<button type="submit"><i class="fas fa-paper-plane"></i></button>
 						</form>
+						<div id="newsletter_status" style="margin-top: 10px; font-size: 12px;"></div>
 					</div>
 				</div>
 			</div>
@@ -310,10 +311,32 @@
 	<script src="assets/js/jquery.meanmenu.min.js"></script>
 	<!-- sticker js -->
 	<script src="assets/js/sticker.js"></script>
-	<!-- form validation js -->
-	<script src="assets/js/form-validate.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
+
+	<!-- Contact and Newsletter form handlers -->
+	<script>
+		var submitted = false;
+		// Newsletter form handler
+		function handleNewsletterSubmit(event) {
+			const statusDiv = document.getElementById('newsletter_status');
+			statusDiv.innerHTML = '<p style="color: #28a745; font-size: 12px;">✓ Subscribed successfully!</p>';
+			submitted = true;
+			setTimeout(function() {
+				document.getElementById('newsletter-form').reset();
+				statusDiv.innerHTML = '';
+			}, 3000);
+		}
+		
+		// Add event listeners when DOM is loaded
+		document.addEventListener('DOMContentLoaded', function() {
+			const newsletterForm = document.getElementById('newsletter-form');
+			
+			if (newsletterForm) {
+				newsletterForm.addEventListener('submit', handleNewsletterSubmit);
+			}
+		});
+	</script>
 
 </body>
 </html>
