@@ -1106,7 +1106,8 @@ h2.widget-title {
 
 h2.widget-title:after {
   position: absolute;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 0;
   width: 20px;
   height: 2px;
