@@ -2162,6 +2162,30 @@ span.comment-date {
 
 /* -----------------------------------------------------------------------------
 
+# Services Styles
+
+----------------------------------------------------------------------------- */
+
+
+		#electronic-page .intro-img {
+			float: right;
+			max-width: 50%;
+			height: auto;
+			margin: 0 0 1rem 1rem;
+			border-radius: 50px;
+		}
+		#electronic-page .clearfix { clear: both; }
+		@media (max-width: 991.98px) {
+			#electronic-page .intro-img {
+				float: none;
+				display: block;
+				max-width: 100%;
+				margin: 0 0 1rem 0;
+			}
+		}
+
+/* -----------------------------------------------------------------------------
+
 # Cart Banner Styles
 
 ----------------------------------------------------------------------------- */
@@ -2611,6 +2635,105 @@ video {
 .cs-text p:last-child {
   margin-bottom: 0;
 }
+
+
+/* -----------------------------------------------------------------------------
+
+# Services Banner Styles
+
+----------------------------------------------------------------------------- */
+
+.services-banner {
+  text-align: left;
+  text-justify: inter-word;
+  position: relative;
+  background-color: #fff;
+  background-image: url(../img/1.jpg);
+  background-blend-mode: darken;
+  background-size: cover;
+  padding: 50px 0px 50px;
+}
+
+@media only screen and (max-width: 767.96px) {
+  .services-banner {
+    text-align: center;
+    text-justify: inter-word;
+    position: relative;
+    background-color: #fff;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    padding: 110px 0px 115px;
+  }
+}
+
+.services-banner h3 {
+  position: relative;
+  font-size: 50px;
+  line-height: 1.2em;
+  margin-bottom: 0px;
+  color: #fff;
+}
+
+.services-banner {
+  position: relative;
+  font-size: 60px;
+  font-weight: 700;
+  color: #0D8;
+}
+
+.services-banner span {
+  position: relative;
+  font-size: 24px;
+  line-height: 1.1em;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+
+.services-sub-section {
+  background-color: #fff;
+  padding: 50px 300px 50px;
+}
+
+.services-sub-text {
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 767.96px) {
+  .services-sub-text {
+    text-align: center;
+    text-justify: inter-word;
+  }
+}
+
+.services-sub-text-para{
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.services-sub-text p .ul .li{
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.services-sub-text p.top-sub {
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.services-sub-text p:last-child {
+  margin-bottom: 0;
+}
+
 
 
 /* -----------------------------------------------------------------------------
