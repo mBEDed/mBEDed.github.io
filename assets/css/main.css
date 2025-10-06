@@ -730,7 +730,8 @@ nav.main-menu ul ul.sub-menu {
   margin: 0;
   left: 0;
   top: 50px;
-  border-radius: 3px;
+  border-radius: 40px;
+  overflow: hidden;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -2538,7 +2539,7 @@ a.video-play-btn {
 
 /* -----------------------------------------------------------------------------
 
-# case studies saction
+# case studies section
 
 ----------------------------------------------------------------------------- */
 
