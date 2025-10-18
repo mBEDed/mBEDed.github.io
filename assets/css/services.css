@@ -1,0 +1,140 @@
+/* -----------------------------------------------------------------------------
+
+# Services Styles
+
+----------------------------------------------------------------------------- */
+
+.service-box a.boxed-btn {
+  margin-top: 80px;
+}
+
+.single-service-box h3 {
+  font-size: 20px;
+  line-height: 1.25em;
+  font-weight: 600;
+}
+
+.single-service-box h3 a {
+  color: #012;
+}
+
+.single-service-box {
+  margin-bottom: 30px;
+}
+
+.service-box-bg {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+  background-color: #fff;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.service-bg-0 {
+  background-image: url(../img/services/service-bg-0.jpg);
+}
+
+.service-bg-1 {
+  background-image: url(../img/services/service-bg-1.jpg);
+}
+
+.service-bg-2 {
+  background-image: url(../img/services/service-bg-2.jpg);
+}
+
+.service-bg-3 {
+  background-image: url(../img/services/service-bg-3.jpg);
+}
+
+.service-bg-4 {
+  background-image: url(../img/services/service-bg-4.jpg);
+}
+
+.service-bg-5 {
+  background-image: url(../img/services/service-bg-5.jpg);
+}
+
+.service-bg-6 {
+  background-image: url(../img/services/service-bg-6.jpg);
+}
+
+.service-bg-7 {
+  background-image: url(../img/services/service-bg-7.jpg);
+}
+
+.service-text-box {
+  padding: 25px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+p.excerpt {
+  line-height: 1.8;
+  color: #012;
+}
+
+.srv-bg {
+  background-image: url(../img/abt.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.srv-bg:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: #012;
+  opacity: 0.3;
+}
+
+.srv-section {
+  background-color: #fff;
+  padding: 50px 5px 50px;
+}
+
+.srv-text {
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 767.96px) {
+  .srv-text {
+    text-align: center;
+    text-justify: inter-word;
+  }
+}
+
+.srv-text-para{
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.srv-text p .ul .li{
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.srv-text p.top-sub {
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.srv-text p:last-child {
+  margin-bottom: 0;
+}
