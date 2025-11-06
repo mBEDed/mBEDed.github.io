@@ -4,6 +4,31 @@
 
 ----------------------------------------------------------------------------- */
 
+.latest-service-bg {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.single-latest-service:hover .latest-service-bg {
+  opacity: 0.8;
+}
+
+.single-latest-service {
+  -webkit-box-shadow: 0 0 20px #fff;
+  box-shadow: 0 0 20px #fff;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.single-latest-service:hover {
+  -webkit-box-shadow: 0 0 0;
+  box-shadow: 0 0 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 .service-box a.boxed-btn {
   margin-top: 80px;
 }

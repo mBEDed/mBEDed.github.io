@@ -141,7 +141,7 @@ h6, .h6 {
 }
 
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1rem;
   letter-spacing: 0.1px;
@@ -716,24 +716,24 @@ nav.main-menu ul li {
 
 nav.main-menu ul li a {
   color: #fff;
-  font-weight: 700;
   display: block;
-  padding: 15px;
+  padding: 15px;  
+  font-family: 'Poppins', sans-serif;
 }
 
 nav.main-menu ul > li {
   position: relative;
 }
 
-nav.main-menu ul ul.sub-menu {
+nav.main-menu ul ul.sub-menu {  
   position: absolute;
   background-color: #fff;
-  width: 300px;
+  width: 310px;
   padding: 15px 15px;
   margin: 0;
   left: 0;
   top: 50px;
-  border-radius: 30px;
+  border-radius: 40px;
   overflow: hidden;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -751,9 +751,8 @@ nav.main-menu ul ul.sub-menu li {
 
 nav.main-menu ul ul.sub-menu li a {
   color: #012;
-  font-weight: 600;
   padding: 7px 10px;
-  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
 }
 
 nav.main-menu ul > li:hover ul {
@@ -851,18 +850,15 @@ nav.main-menu ul ul.sub-menu li a {
   color: #012;
   padding: 8px;
   font-size: 13px;
-  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
 }
 
 nav.main-menu ul li.current-list-item > a {
   color: #0D8;
-  border-radius: 40px;
 }
 
 nav.main-menu li:hover > a {
   color: #0D8;
-  background-color: #012;
-  border-radius: 40px;
 }
 
 nav.main-menu li a {
@@ -1298,10 +1294,13 @@ ul.sub-menu a {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  border-radius: 40px;
 }
 
 ul.sub-menu li:hover a {
   color: #0D8;
+  background-color: #012;
+  border-radius: 40px;
 }
 
 .single-tof-box {
@@ -1326,16 +1325,6 @@ a.video-play-btn:hover {
   color: #0D8;
 }
 
-.latest-news-bg {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.single-latest-news:hover .latest-news-bg {
-  opacity: 0.8;
-}
-
 a.tof-btn {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -1354,21 +1343,6 @@ a.tof-btn:hover {
 
 a.tof-btn:hover i {
   margin-left: 10px;
-}
-
-.single-latest-news {
-  -webkit-box-shadow: 0 0 20px #fff;
-  box-shadow: 0 0 20px #fff;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.single-latest-news:hover {
-  -webkit-box-shadow: 0 0 0;
-  box-shadow: 0 0 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
 }
 
 .single-logo-item {
