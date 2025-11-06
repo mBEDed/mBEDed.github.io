@@ -728,12 +728,12 @@ nav.main-menu ul > li {
 nav.main-menu ul ul.sub-menu {
   position: absolute;
   background-color: #fff;
-  width: 220px;
+  width: 300px;
   padding: 15px 15px;
   margin: 0;
   left: 0;
   top: 50px;
-  border-radius: 40px;
+  border-radius: 30px;
   overflow: hidden;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -762,7 +762,7 @@ nav.main-menu ul > li:hover ul {
 }
 
 nav.main-menu ul li:last-child a {
-  display: inline-block;
+  display: block;
 }
 
 nav.main-menu > ul li:last-child {
@@ -856,10 +856,13 @@ nav.main-menu ul ul.sub-menu li a {
 
 nav.main-menu ul li.current-list-item > a {
   color: #0D8;
+  border-radius: 40px;
 }
 
 nav.main-menu li:hover > a {
   color: #0D8;
+  background-color: #012;
+  border-radius: 40px;
 }
 
 nav.main-menu li a {
