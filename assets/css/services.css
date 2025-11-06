@@ -43,7 +43,16 @@
   color: #012;
 }
 
+.single-service-box h3 a:hover {
+  color: #0D8;
+}
+
+.single-service-box p:hover {
+  color: #0D8;
+}
+
 .single-service-box {
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 

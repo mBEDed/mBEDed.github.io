@@ -717,7 +717,7 @@ nav.main-menu ul li {
 nav.main-menu ul li a {
   color: #fff;
   display: block;
-  padding: 15px;  
+  padding: 20px;  
   font-family: 'Poppins', sans-serif;
 }
 
@@ -1115,6 +1115,14 @@ h2.widget-title:after {
   height: 2px;
   background-color: #0D8;
   content: "";
+}
+
+.footer-box a {
+  color: #0D8;
+}
+
+.footer-box a:hover {
+  color: #fff;
 }
 
 .footer-box p {
