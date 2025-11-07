@@ -21,12 +21,18 @@
 	<link rel="stylesheet" href="assets/css/all.min.css">
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<!-- owl carousel -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<!-- magnific popup -->
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<!-- animate css -->
+	<link rel="stylesheet" href="assets/css/animate.css">
 	<!-- mean menu css -->
 	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
-	<!-- page specific -->
-	<link rel="stylesheet" href="assets/css/services.css">
 	<!-- main style -->
 	<link rel="stylesheet" href="assets/css/main.css">
+	<!-- page specific -->
+	<link rel="stylesheet" href="assets/css/services.css">
 	<!-- responsive -->
 	<link rel="stylesheet" href="assets/css/responsive.css">
 
@@ -56,6 +62,14 @@
 								<li class="current-list-item"><a href="services">Services</a>
 									<ul class="sub-menu">
 										<li><a href="electronic-product-design">Electronic Product Design</a></li>
+										<li><a href="electronic-research-and-development">Electronic Research and Development</a></li>
+										<li><a href="schematic-design-services">Schematic Design Services</a></li>
+										<li><a href="pcb-design-services">PCB Design Services</a></li>
+										<li><a href="pcb-manufacturing">PCB Manufacturing</a></li>
+										<li><a href="bom-sourcing">BOM Sourcing</a></li>
+										<li><a href="pcb-assembly-and-soldering">PCB Assembly and Soldering</a></li>
+										<li><a href="firmware-development-services">Firmware Development Services</a></li>
+										<li><a href="software-development">Software Development</a></li>
 										<li><a href="iot-development-services">IoT Development Services</a></li>	
 									</ul>
 								</li>
@@ -128,71 +142,80 @@
 	</div>
 	<!-- end breadcrumb section -->
 
-	<!-- services section -->
-	<div class="service-box mt-80">
+	<!-- latest services -->
+	<div class="latest-service mt-80">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-md-6">
-					<div class="single-service-box">
+					<div class="single-latest-service">
 						<a href="electronic-product-design">
 							<div class="service-box-bg service-bg-1"></div>
 						</a>
-						<div class="service-text-box">
+						<div class="single-service-box">
 							<h3 class="text-center"><a href="electronic-product-design">Electronic Product Design</a></h3>
+							<!--
+							<p class="blog-meta">
+								<span class="author"><i class="fas fa-user"></i> Admin</span>
+								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2018</span>
+							</p>
+							-->
 							<a href="electronic-product-design"><p class="excerpt text-center">Designing products for all kinds of Industrial, Home and System Automations, etc.</p></a>
+							<!--
+							<a href="single-news.html" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
+							-->
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
-					<div class="single-service-box">
+					<div class="single-latest-service">
 						<a href="iot-development-services">
-							<div class="service-box-bg service-bg-7"></div>
+							<div class="service-box-bg  service-bg-7"></div>
 						</a>
-						<div class="service-text-box">
+						<div class="single-service-box">
 							<h3 class="text-center"><a href="iot-development-services">IoT Development Services</a></h3>
 							<a href="iot-development-services"><p class="excerpt text-center">From smart devices and gateways to edge/cloud platforms and analytics, we help you innovate.</p></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
-					<div class="single-service-box">
-							<div class="service-box-bg service-bg-2"></div>
-						<div class="service-text-box">
+					<div class="single-latest-service">
+							<div class="service-box-bg  service-bg-2"></div>
+						<div class="single-service-box">
 							<h3 class="text-center">Research & Development</h3>
 							<p class="excerpt text-center">We are a well-suited team of engineers and have provided up to the mark services.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
-					<div class="single-service-box">
-							<div class="service-box-bg service-bg-3"></div>
-						<div class="service-text-box">
+					<div class="single-latest-service">
+							<div class="service-box-bg  service-bg-3"></div>
+						<div class="single-service-box">
 							<h3 class="text-center">Programming Hardware</h3>
 							<p class="excerpt text-center">Our team works with multiple cores including iconic AVR, ARM, MSP, CC, CY, mbed, etc.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
-					<div class="single-service-box">
-							<div class="service-box-bg service-bg-4"></div>
-						<div class="service-text-box">
+					<div class="single-latest-service">
+							<div class="service-box-bg  service-bg-4"></div>
+						<div class="single-service-box">
 							<h3 class="text-center">Software Development</h3>
 							<p class="excerpt text-center">We've embraced software development, harnessing .NET, Java, Kotlin, PHP, and more to drive innovation and efficiency.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
-					<div class="single-service-box">
-							<div class="service-box-bg service-bg-5"></div>
-						<div class="service-text-box">
+					<div class="single-latest-service">
+							<div class="service-box-bg  service-bg-5"></div>
+						<div class="single-service-box">
 							<h3 class="text-center">Embedded Software</h3>
 							<p class="excerpt text-center">All leading Controllers, sensors, and interfacings to provide you innovative solutions.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
-					<div class="single-service-box">
-							<div class="service-box-bg service-bg-6"></div>
+					<div class="single-latest-service">
+							<div class="service-box-bg  service-bg-6"></div>
 						<div class="service-text-box">
 							<h3 class="text-center">Hardware Development</h3>
 							<p class="excerpt text-center">Prestige Quality of PCBs in all kind of qualities like single-layer, multi-layer, blind via, flexible, etc.</p>
@@ -200,9 +223,28 @@
 					</div>
 				</div>
 			</div>
+			<!--
+			<div class="row">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<div class="pagination-wrap">
+								<ul>
+									<li><a href="#">Prev</a></li>
+									<li><a href="#">1</a></li>
+									<li><a class="active" href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#">Next</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			-->
 		</div>
 	</div>
-	<!-- end services section -->
+	<!-- end latest service -->
 
 	<!-- logo carousel -->
 	<div class="logo-carousel-section">

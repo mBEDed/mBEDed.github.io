@@ -141,7 +141,7 @@ h6, .h6 {
 }
 
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1rem;
   letter-spacing: 0.1px;
@@ -716,19 +716,19 @@ nav.main-menu ul li {
 
 nav.main-menu ul li a {
   color: #fff;
-  font-weight: 700;
   display: block;
-  padding: 15px;
+  padding: 20px;  
+  font-family: 'Poppins', sans-serif;
 }
 
 nav.main-menu ul > li {
   position: relative;
 }
 
-nav.main-menu ul ul.sub-menu {
+nav.main-menu ul ul.sub-menu {  
   position: absolute;
   background-color: #fff;
-  width: 220px;
+  width: 310px;
   padding: 15px 15px;
   margin: 0;
   left: 0;
@@ -751,9 +751,8 @@ nav.main-menu ul ul.sub-menu li {
 
 nav.main-menu ul ul.sub-menu li a {
   color: #012;
-  font-weight: 600;
   padding: 7px 10px;
-  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
 }
 
 nav.main-menu ul > li:hover ul {
@@ -762,7 +761,7 @@ nav.main-menu ul > li:hover ul {
 }
 
 nav.main-menu ul li:last-child a {
-  display: inline-block;
+  display: block;
 }
 
 nav.main-menu > ul li:last-child {
@@ -851,7 +850,7 @@ nav.main-menu ul ul.sub-menu li a {
   color: #012;
   padding: 8px;
   font-size: 13px;
-  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
 }
 
 nav.main-menu ul li.current-list-item > a {
@@ -1097,7 +1096,6 @@ a.mobile-show {
 .footer-area {
   background-color: #012;
   color: #fff;
-  padding: 30px 0;
 }
 
 h2.widget-title {
@@ -1117,6 +1115,18 @@ h2.widget-title:after {
   height: 2px;
   background-color: #0D8;
   content: "";
+}
+
+.footer-box a {
+  color: #0D8;
+}
+
+.footer-box a:hover {
+  color: #fff;
+}
+
+.footer-box.get-in-touch p {
+  padding-top: 18px;
 }
 
 .footer-box p {
@@ -1146,6 +1156,7 @@ h2.widget-title:after {
   align-items: center;
   gap: 4px;
   width: 100%;
+  padding-top: 10px;
 }
 
 .footer-box.subscribe form input[type=email] {
@@ -1158,8 +1169,8 @@ h2.widget-title:after {
   color: #012;
   font-size: 14px;
   transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
-  height: 48px;
-  min-height: 48px;
+  height: 40px;
+  min-height: 40px;
 }
 
 .footer-box.subscribe form input[type=email]:focus {
@@ -1173,10 +1184,10 @@ h2.widget-title:after {
 
 .footer-box.subscribe form button {
   font-family: 'Poppins', sans-serif;
-  width: 48px;
-  height: 48px;
-  min-height: 48px;
-  min-width: 48px;
+  width: 40px;
+  height: 40px;
+  min-height: 40px;
+  min-width: 40px;
   border: 2px solid #0D8;
   background-color: #0D8;
   color: #012;
@@ -1295,10 +1306,13 @@ ul.sub-menu a {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  border-radius: 40px;
 }
 
 ul.sub-menu li:hover a {
   color: #0D8;
+  background-color: #012;
+  border-radius: 40px;
 }
 
 .single-tof-box {
@@ -1323,16 +1337,6 @@ a.video-play-btn:hover {
   color: #0D8;
 }
 
-.latest-news-bg {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.single-latest-news:hover .latest-news-bg {
-  opacity: 0.8;
-}
-
 a.tof-btn {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -1351,21 +1355,6 @@ a.tof-btn:hover {
 
 a.tof-btn:hover i {
   margin-left: 10px;
-}
-
-.single-latest-news {
-  -webkit-box-shadow: 0 0 20px #fff;
-  box-shadow: 0 0 20px #fff;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.single-latest-news:hover {
-  -webkit-box-shadow: 0 0 0;
-  box-shadow: 0 0 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
 }
 
 .single-logo-item {
