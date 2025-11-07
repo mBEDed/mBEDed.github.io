@@ -4,6 +4,170 @@
 
 ----------------------------------------------------------------------------- */
 
+
+/* Hero */
+.srv-hero {
+    padding: 64px 0;
+}
+
+.srv-hero-inner {
+    display: flex;
+    gap: 36px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.srv-hero-copy {
+    max-width: 640px;
+}
+
+.srv-hero h1 {
+    margin: 0 0 12px 0;
+    font-size: clamp(1.6rem, 3.6vw, 2.6rem);
+    line-height: 1.05;
+    letter-spacing: -0.5px;
+}
+
+/* mockup visual */
+.srv-hero-visual {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.lede {
+    color: var(--muted);
+    margin: 0 0 20px 0;
+    font-size: 20px;
+}
+
+.split-btn-primary.btn {
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: #0D8;
+  color: #012;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  border: 0px;
+}
+
+.split-btn-primary.btn:hover {
+  background-color: #012;
+  color: #0D8;
+}
+
+.split-btn-secondary.ghost {
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: #0D8;
+  padding: 12px 28px;
+  width: auto;
+  color: #012;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  border: 0px;
+}
+
+.split-btn-secondary.ghost:hover {
+  background-color: #012;
+  border-radius: 24px;
+  color: #0D8;
+}
+
+.card.mockup {
+    width: 280px;
+    height: 280px;
+    border-radius: 18px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+}
+
+.card .chip {
+    border-radius: 4px;
+    opacity: 0.9;
+}
+
+.card .screen {
+    flex: 1;
+    background: url("/assets/img/services/Electronics-Product-Design.jpg") no-repeat center/cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.srv-intro {  
+    background-color: rgba(0, 0, 0, 0.06); 
+    padding: 100px 300px;
+}
+
+.srv-chiplet {  
+    padding: 100px 250px 100px 250px;
+    width: 100%;
+    border-radius: 4px;
+} 
+
+.srv-chiplet.h2 { 
+    margin-bottom: 200px;
+} 
+
+.srv-card { 
+    background-color: #012;
+    color: #0D8;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 25px;
+    height: 200px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+}
+
+.srv-card h3
+{
+    color: #fff;
+}
+
+.srv-card p
+{
+    color: #fff;
+}
+
+.srv-card:hover {
+    background-color: #0D8;
+    color: #fff;
+}
+
+.srv-card:hover h3
+{
+    color: #012;
+}
+
+.srv-card:hover p
+{
+    color: #012;
+}
+
+/* Sections */
+.section {
+    padding: 100px 0px;
+}
+
+.section-title {
+    font-size: 1.25rem;
+    margin: 0 0 6px 0;
+    color: #fff;
+}
+
+.section-sub {
+    color: var(--muted);
+    margin: 0 0 20px 0;
+}
+
 .latest-service-bg {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -55,6 +219,7 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 
 .service-box-bg {
   height: 200px;

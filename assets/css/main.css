@@ -1608,6 +1608,17 @@ a.mobile-show.search-bar-icon {
   transition: 0.3s;
 }
 
+a.mobile-show.search-bar-icon {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a.mobile-show.search-bar-icon.split-btn-primary {
+  color: #012;
+  
+}
+
 a.mobile-show.search-bar-icon:hover {
   color: #0D8;
 }
