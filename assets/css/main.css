@@ -1125,6 +1125,10 @@ h2.widget-title:after {
   color: #fff;
 }
 
+.footer-box.get-in-touch p {
+  padding-top: 18px;
+}
+
 .footer-box p {
   color: #fff;
   opacity: 0.7;
@@ -1152,6 +1156,7 @@ h2.widget-title:after {
   align-items: center;
   gap: 4px;
   width: 100%;
+  padding-top: 10px;
 }
 
 .footer-box.subscribe form input[type=email] {
@@ -1164,8 +1169,8 @@ h2.widget-title:after {
   color: #012;
   font-size: 14px;
   transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
-  height: 48px;
-  min-height: 48px;
+  height: 40px;
+  min-height: 40px;
 }
 
 .footer-box.subscribe form input[type=email]:focus {
@@ -1179,10 +1184,10 @@ h2.widget-title:after {
 
 .footer-box.subscribe form button {
   font-family: 'Poppins', sans-serif;
-  width: 48px;
-  height: 48px;
-  min-height: 48px;
-  min-width: 48px;
+  width: 40px;
+  height: 40px;
+  min-height: 40px;
+  min-width: 40px;
   border: 2px solid #0D8;
   background-color: #0D8;
   color: #012;
