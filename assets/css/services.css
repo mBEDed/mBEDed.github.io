@@ -7,7 +7,7 @@
 
 /* Hero */
 .srv-hero {
-    padding: 64px 0;
+    padding: 84px 0;
 }
 
 .srv-hero-inner {
@@ -30,7 +30,6 @@
 
 /* mockup visual */
 .srv-hero-visual {
-    width: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,12 +78,16 @@
 }
 
 .card.mockup {
-    width: 280px;
+    width: 450px;
     height: 280px;
     border-radius: 18px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
     display: flex;
     flex-direction: column;
+    background: linear-gradient(180deg, var(--card), rgba(255, 255, 255, 0.02));
+    overflow: hidden;
+    border: 0px solid rgba(255, 255, 255, 0.02);
+
 }
 
 .card .chip {
@@ -150,6 +153,21 @@
 .srv-card:hover p
 {
     color: #012;
+}
+
+.srv-abt{
+    background-color: rgba(0, 0, 0, 0.06); 
+    padding: 100px 300px;
+}
+
+.srv-contact-card {
+    background-color: #fff;
+    color: #0D8;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 25px;
+    height: 100%;
+    border: #012 2px solid;
 }
 
 /* Sections */
@@ -299,7 +317,6 @@ p.excerpt {
 
 .srv-section {
   background-color: #fff;
-  padding: 50px 5px 50px;
 }
 
 .srv-text {
