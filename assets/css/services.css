@@ -115,6 +115,12 @@
     background-position: center;
 }
 
+.img-sds {
+    background: url("/assets/img/services/Schematic-Design-Services.jpg") no-repeat center/cover;
+    background-size: cover;
+    background-position: center;
+}
+
 .srv-intro {
     background-color: rgba(0, 0, 0, 0.06);
     padding: 100px 300px;
