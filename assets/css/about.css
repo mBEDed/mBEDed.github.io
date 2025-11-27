@@ -184,3 +184,14 @@ p.testimonial-body {
   margin: 0 auto;
 }
 
+
+.testimonial-stars {
+  margin: 10px 0 12px;
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+}
+
+.testimonial-stars i {
+  color: #fbbf24;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}

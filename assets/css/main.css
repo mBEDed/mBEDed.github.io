@@ -2795,6 +2795,17 @@ p.blog-meta span i {
   border-radius: 50%;
 }
 
+.client-avater img {
+  width: 100px;
+  max-width: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+
 .comment-text-body {
   padding-left: 80px;
   margin-bottom: 40px;
@@ -2927,4 +2938,80 @@ span.comment-date {
   border-radius: 5px;
   margin-bottom: 10px;
   margin-right: 5px;
+}
+
+
+.home-srv-chiplet {
+  padding: 100px 250px 100px 250px;
+  width: 100%;
+}
+
+.home-srv-chiplet.h2 {
+  margin-bottom: 200px;
+}
+
+.home-srv-card {
+  background-color: #012;
+  color: #0D8;
+  text-align: center;
+  border-radius: 20px;
+  padding: 50px 25px;
+  height: 250px;
+}
+
+.home-srv-card h3 {
+  color: #fff;
+}
+
+.home-srv-card p {
+  color: #fff;
+}
+
+.home-srv-card:hover {
+  background-color: #0D8;
+  color: #fff;
+}
+
+.home-srv-card:hover h3 {
+  color: #012;
+}
+
+.home-srv-card:hover p {
+  color: #012;
+}
+
+p.home-testimonial-body {
+  font-size: 17px;
+  font-style: italic;
+  width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: #012;
+  margin-top: 20px;
+}
+
+.home-client-meta h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.home-client-meta h3 span {
+  display: block;
+  font-size: 70%;
+  margin-top: 10px;
+  color: #0D8;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+/* testimonial stars styling */
+.home-testimonial-stars {
+  margin: 10px 0 12px;
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+}
+
+.home-testimonial-stars i {
+  color: #fbbf24;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }

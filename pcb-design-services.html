@@ -140,7 +140,7 @@
 
 	<!-- service section -->
     <div class="srv-section" id="electronic-page">
-        <div class="container">
+        <div class="container srv-main">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
                     <div class="srv-text">
@@ -204,82 +204,64 @@
 				</div>
 			</section>
 		</div>  
-		<!-- industries we serve section -->
-		<div class="industries-section pt-80 pb-80">
+		<!-- industries we serve section (replaced) -->
+		<div class="industries-section industries-hero pt-80 pb-80">
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<div class="section-title">
-							<h3>Industries We <span class="teal-text">Serve</span></h3>
+				<div class="row align-items-center">
+					<div class="col-lg-5 col-md-12 industries-left text-center">
+						<div class="section-title text-center">
+							<h3 class="industries-title">Industries<br><span class="teal-text">we serve</span></h3>
 						</div>
+						<br>
+						<p class="industries-intro text-center">We deliver electronics solutions across a wide range of sectors from consumer devices to industrial, medical and telecom systems. Click any tile to learn more.</p>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="industries-bubble-map">
-							<!-- central hub -->
-							<div class="industries-hub">
-								<div class="hub-inner">
-									<i class="fas fa-cogs"></i>
-									<p>INDUSTRIES<br>WE SERVE</p>
-								</div>
+
+					<div class="col-lg-7 col-md-12 industries-right">
+						<div class="icons-grid" role="list" aria-label="Industries list">
+							<!-- item -->
+							<div class="icon-item" role="listitem" tabindex="0" aria-label="Consumer Electronics">
+								<div class="diamond"><i class="fas fa-microchip" aria-hidden="true"></i></div>
+								<div class="diamond-label">Consumer Electronics</div>
 							</div>
 
-							<!-- bubble items -->
-							<div class="industry-bubble bubble-1">
-								<div class="bubble-icon">
-									<i class="fas fa-microchip"></i>
-								</div>
-								<div class="bubble-label">Consumer Electronics</div>
+							<div class="icon-item" role="listitem" tabindex="0" aria-label="Industrial & Power Electronics">
+								<div class="diamond"><i class="fas fa-plug" aria-hidden="true"></i></div>
+								<div class="diamond-label">Industrial &amp; Power Electronics</div>
 							</div>
 
-							<div class="industry-bubble bubble-2">
-								<div class="bubble-icon">
-									<i class="fas fa-plug"></i>
-								</div>
-								<div class="bubble-label">Industrial & Power Electronics</div>
+							<div class="icon-item" role="listitem" tabindex="0" aria-label="IoT & Smart Devices">
+								<div class="diamond"><i class="fas fa-wifi" aria-hidden="true"></i></div>
+								<div class="diamond-label">IoT &amp; Smart Devices</div>
 							</div>
 
-							<div class="industry-bubble bubble-3">
-								<div class="bubble-icon">
-									<i class="fas fa-wifi"></i>
-								</div>
-								<div class="bubble-label">IoT & Smart Devices</div>
+							<div class="icon-item" role="listitem" tabindex="0" aria-label="Automotive">
+								<div class="diamond"><i class="fas fa-car" aria-hidden="true"></i></div>
+								<div class="diamond-label">Automotive</div>
 							</div>
 
-							<div class="industry-bubble bubble-4">
-								<div class="bubble-icon">
-									<i class="fas fa-car"></i>
-								</div>
-								<div class="bubble-label">Automotive</div>
+							<div class="icon-item" role="listitem" tabindex="0" aria-label="Robotics & Drones">
+								<div class="diamond"><i class="fas fa-robot" aria-hidden="true"></i></div>
+								<div class="diamond-label">Robotics &amp; Drones</div>
 							</div>
 
-							<div class="industry-bubble bubble-5">
-								<div class="bubble-icon">
-									<i class="fas fa-robot"></i>
-								</div>
-								<div class="bubble-label">Robotics & Drones</div>
+							<div class="icon-item" role="listitem" tabindex="0" aria-label="Medical & Wearable Tech">
+								<div class="diamond"><i class="fas fa-heartbeat" aria-hidden="true"></i></div>
+								<div class="diamond-label">Medical &amp; Wearable Tech</div>
 							</div>
 
-							<div class="industry-bubble bubble-6">
-								<div class="bubble-icon">
-									<i class="fas fa-heartbeat"></i>
-								</div>
-								<div class="bubble-label">Medical & Wearable Tech</div>
+							<div class="icon-item" role="listitem" tabindex="0" aria-label="Telecom & Networking Systems">
+								<div class="diamond"><i class="fas fa-network-wired" aria-hidden="true"></i></div>
+								<div class="diamond-label">Telecom &amp; Networking Systems</div>
 							</div>
 
-							<div class="industry-bubble bubble-7">
-								<div class="bubble-icon">
-									<i class="fas fa-network-wired"></i>
-								</div>
-								<div class="bubble-label">Telecom & Networking Systems</div>
+							<div class="icon-item" role="listitem" tabindex="0" aria-label="Security & Defence Industry">
+								<div class="diamond"><i class="fas fa-shield-alt" aria-hidden="true"></i></div>
+								<div class="diamond-label">Security &amp; Defence Industry</div>
 							</div>
 
-							<div class="industry-bubble bubble-8">
-								<div class="bubble-icon">
-									<i class="fas fa-shield-alt"></i>
-								</div>
-								<div class="bubble-label">Security Industry</div>
+							<div class="icon-item" role="listitem" tabindex="0" aria-label="Energy & Renewable Solutions">
+								<div class="diamond"><i class="fas fa-solar-panel" aria-hidden="true"></i></div>
+								<div class="diamond-label">Energy &amp; Renewable Solutions</div>
 							</div>
 						</div>
 					</div>
@@ -295,14 +277,6 @@
 				<div class="flow-step">
 					<div class="step-box">
 						<h2 class="flow-number">01</h2>
-						<h3>Research & Feasibility Analysis</h3>
-						<p>We begin by analyzing your requirements, market trends, and technology feasibility. This ensures that your idea has a strong foundation before moving into the design stage.</p>
-						<br>
-					</div>
-				</div>
-				<div class="flow-step">
-					<div class="step-box">
-						<h2 class="flow-number">02</h2>
 						<h3>Electronics Prototyping R&D</h3>
 						<p>Prototyping is critical for testing and validating ideas. Our electronics prototyping R&D services provide rapid iterations that help identify challenges early, saving both time and cost.</p>
 						<br>
@@ -310,7 +284,7 @@
 				</div>
 				<div class="flow-step">
 					<div class="step-box">
-						<h2 class="flow-number">03</h2>
+						<h2 class="flow-number">02</h2>
 						<h3>Design & Development</h3>
 						<p>We focus on functionality, scalability, and innovation. Our engineers work on circuit design, embedded systems, firmware, and integration with a keen eye for performance and reliability.</p>
 						<br>
@@ -318,7 +292,7 @@
 				</div>
 				<div class="flow-step">
 					<div class="step-box">
-						<h2 class="flow-number">04</h2>
+						<h2 class="flow-number">03</h2>
 						<h3>Product Innovation and R&D</h3>
 						<p>Innovation is at the heart of what we do. Our product innovation and R&D services ensure that every product we develop meets industry standards and exceeds customer expectations.</p>
 						<br>
@@ -326,7 +300,7 @@
 				</div>
 				<div class="flow-step">
 					<div class="step-box">
-						<h2 class="flow-number">05</h2>
+						<h2 class="flow-number">04</h2>
 						<h3>Manufacturing & Support</h3>
 						<p>Optimize for manufacturing with BOM/DFM work, pilot runs and production transfer. Provide lifecycle support for components, firmware updates and quality management.</p>
 						<br>
@@ -339,29 +313,6 @@
 				<br>
 				<br>	
 			<div class="container">
-				<div class="row">		
-					<div class="col-lg-4 col-md-6 text-center">
-						<article class="srv-card"> <a href="electronic-research-and-development">
-							<h3>Research & Development</h3>
-							<p>Transform breakthrough ideas into functional proof-of-concepts with expert R&D.</p>
-							</a>
-						</article>
-					</div>				
-					<div class="col-lg-4 col-md-6 text-center">
-						<article class="srv-card"> <a href="schematic-design-services">
-							<h3>Schematic Design</h3>
-							<p>Reliable circuit design ensuring optimal signal flow, safety & regulatory readiness.</p>
-							</a>
-						</article>
-					</div>				
-					<div class="col-lg-4 col-md-6 text-center">
-						<article class="srv-card"> <a href="pcb-design-services">
-							<h3>Hardware / PCB Design</h3>
-							<p>High-performance, multi-layer layouts engineered for durability and manufacturability.</p>
-						</article>
-					</div>
-				</div>	
-				<br>
 				<div class="row">			
 					<div class="col-lg-4 col-md-6 text-center">
 						<article class="srv-card"> <a href="pcb-manufacturing">
@@ -371,39 +322,16 @@
 						</article>
 					</div>				
 					<div class="col-lg-4 col-md-6 text-center">
-						<article class="srv-card"> <a href="bom-sourcing">
-							<h3>BOM Sourcing</h3>
-							<p>Smart procurement with lifecycle-secure components at competitive cost.</p>
+						<article class="srv-card"> <a href="schematic-design-services">
+							<h3>Schematic Design</h3>
+							<p>Reliable circuit design ensuring optimal signal flow, safety & regulatory readiness.</p>
 							</a>
 						</article>
-					</div>				
+					</div>			
 					<div class="col-lg-4 col-md-6 text-center">
 						<article class="srv-card"> <a href="pcb-assembly-and-soldering">
 							<h3>PCB Assembly and Soldering</h3>
 							<p>Precision SMT/THT assembly delivering stable and consistent device performance.</p>
-						</article>
-					</div>
-				</div>	
-				<br>
-				<div class="row">			
-					<div class="col-lg-4 col-md-6 text-center">
-						<article class="srv-card"> <a href="firmware-development-services">
-							<h3>Firmware Development</h3>
-							<p>Embedded control software enabling seamless, intelligent device operation.</p>
-							</a>
-						</article>
-					</div>				
-					<div class="col-lg-4 col-md-6 text-center">
-						<article class="srv-card"> <a href="software-development">
-							<h3>Software &amp; App Development</h3>
-							<p>User-focused interfaces and connectivity software for next-gen products.</p>
-							</a>
-						</article>
-					</div>				
-					<div class="col-lg-4 col-md-6 text-center">
-						<article class="srv-card"> <a href="iot-development-services">
-							<h3>IoT Solutions</h3>
-							<p>Secure device connectivity, cloud integration & remote monitoring ecosystems.</p>
 							</a>
 						</article>
 					</div>
@@ -412,6 +340,17 @@
 		</div>
 		<div class="srv-abt">
 			<div class="row">
+				<div id="srv-contact" class="col-lg-4 col-md-6 text-center">
+					<div class="srv-contact-card">
+						<div class="srv-contact-section">
+							<h3>Contact Us</h3>
+							<p class="srv-icons"><a href="callto:+917009701629" target="_blank"><i class="fas fa-phone"></i></a>
+							<a href="mailto:info@mbeded.systems" target="_blank"><i class="fas fa-envelope"></i></a>
+							<a href="https://share.google/vKcX76D2mYjjSWlGU" target="_blank"><i class="fas fa-map-marker-alt"></i></a></p>
+							<p class="srv-contact-cta"><a class="boxed-btn mt-4" href="mailto:info@mbeded.systems">Send us a message!</a></p>
+						</div>
+					</div>
+				</div>
 				<div id="srv-about" class="col-lg-8 col-md-12">
 					<div class="about-inner">
 						<div class="srv-about-section">
@@ -423,18 +362,6 @@
 							<li>DFM + compliance aware</li>
 							<li>From prototypes to small-batch production</li>
 						</ul></p>
-						</div>
-					</div>
-				</div>
-
-				<div id="srv-contact" class="col-lg-4 col-md-6 text-center">
-					<div class="srv-contact-card">
-						<div class="srv-contact-section">
-							<h3>Contact Us</h3>
-							<p class="srv-icons"><a href="callto:+917009701629" target="_blank"><i class="fas fa-phone"></i></a>
-							<a href="mailto:info@mbeded.systems" target="_blank"><i class="fas fa-envelope"></i></a>
-							<a href="https://share.google/vKcX76D2mYjjSWlGU" target="_blank"><i class="fas fa-map-marker-alt"></i></a></p>
-							<p class="srv-contact-cta"><a class="boxed-btn mt-4" href="mailto:info@mbeded.systems">Send us a message!</a></p>
 						</div>
 					</div>
 				</div>
