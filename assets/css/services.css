@@ -4,6 +4,264 @@
 
 ----------------------------------------------------------------------------- */
 
+
+/* Hero */
+.srv-hero {
+  padding: 84px 0;
+}
+
+.srv-hero-inner {
+  display: flex;
+  gap: 36px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.srv-hero-copy {
+  max-width: 640px;
+}
+
+.srv-hero h1 {
+  margin: 0 0 12px 0;
+  font-size: clamp(1.6rem, 3.6vw, 2.6rem);
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+}
+
+/* mockup visual */
+.srv-hero-visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.lede {
+  color: var(--muted);
+  margin: 0 0 20px 0;
+  font-size: 20px;
+}
+
+.split-btn-primary.btn {
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: #0D8;
+  color: #012;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  border: 0px;
+}
+
+.split-btn-primary.btn:hover {
+  background-color: #012;
+  color: #0D8;
+}
+
+.split-btn-secondary.ghost {
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: #0D8;
+  padding: 12px 28px;
+  width: auto;
+  color: #012;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  border: 0px;
+}
+
+.split-btn-secondary.ghost:hover {
+  background-color: #012;
+  border-radius: 24px;
+  color: #0D8;
+}
+
+.card.mockup {
+  width: 450px;
+  height: 280px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, var(--card), rgba(255, 255, 255, 0.02));
+  overflow: hidden;
+  border: 0px solid rgba(255, 255, 255, 0.02);
+
+}
+
+.card .chip {
+  border-radius: 4px;
+  opacity: 0.9;
+}
+
+.card .screen {
+  flex: 1;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.img-epd {
+  background: url("/assets/img/services/Electronics-Product-Design.jpg") no-repeat center/cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-erd {
+  background: url("/assets/img/services/Electronics-Research-and-Development.jpg") no-repeat center/cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-sds {
+  background: url("/assets/img/services/Schematic-Design-Services.jpg") no-repeat center/cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.srv-intro {
+  background-color: rgba(0, 0, 0, 0.06);
+  padding: 100px 300px;
+}
+
+.srv-chiplet {
+  padding: 100px 250px 100px 250px;
+  width: 100%;
+}
+
+.srv-chiplet.h2 {
+  margin-bottom: 200px;
+}
+
+.srv-card {
+  background-color: #012;
+  color: #0D8;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px 25px;
+  height: 200px;
+}
+
+.srv-card h3 {
+  color: #fff;
+}
+
+.srv-card p {
+  color: #fff;
+}
+
+.srv-card:hover {
+  background-color: #0D8;
+  color: #fff;
+}
+
+.srv-card:hover h3 {
+  color: #012;
+}
+
+.srv-card:hover p {
+  color: #012;
+}
+
+.srv-abt {
+  padding: 100px 300px;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.srv-about-section {
+  padding-left: 50px !important;
+}
+
+.srv-contact-card {
+  background-color: #fff;
+  color: #0D8;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px 25px;
+  height: 100%;
+  border: #012 2px solid;
+}
+
+.srv-icons a {
+  color: #012;
+  font-size: 24px;
+  margin: 0 10px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.srv-icons a:hover {
+  color: #0D8;
+}
+
+.srv-works {
+  padding: 100px 300px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.flow-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.flow-number {
+  text-align: left;
+  padding: 10px 15px 0px 0px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.06);
+  margin-right: 10px;
+}
+
+.flow-step {
+  display: flex;
+  align-items: center;
+}
+
+.step-box {
+  background-color: #0D8;
+  color: white;
+  width: 250px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+
+.step-box-rnd {
+  background-color: #0D8;
+  color: white;
+  width: 210px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+
+.arrow {
+  font-size: 24px;
+  color: #012;
+}
+
+/* Sections */
+.section {
+  padding: 100px 0px;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  margin: 0 0 6px 0;
+  color: #fff;
+}
+
+.section-sub {
+  color: var(--muted);
+  margin: 0 0 20px 0;
+}
+
 .latest-service-bg {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -56,6 +314,7 @@
   margin-bottom: 30px;
 }
 
+
 .service-box-bg {
   height: 200px;
   background-size: cover;
@@ -98,10 +357,76 @@
   background-image: url(../img/services/service-bg-7.jpg);
 }
 
+.service-bg-8 {
+  background-image: url(../img/services/service-bg-8.jpg);
+}
+
+.service-bg-9 {
+  background-image: url(../img/services/service-bg-9.jpg);
+}
+
+/* scoped minimal styles for accordion */
+.srv-intro-accordion {
+  margin: 22px 0;
+}
+
+
+.srv-accordion {
+  max-width: 980px;
+  margin: 18px auto;
+}
+
+.srv-accordion-toggle button {
+  margin-top: 12px;
+  color: #0D8;
+}
+
+.srv-accordion-toggle {
+  color: #0D8;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  width: 100%;
+  text-align: left;
+  padding: 12px 16px;
+  border: 2px solid #012;
+  background: #012;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+  border-radius: 40px;
+}
+
+.srv-accordion-toggle:hover {
+  background: #0D8;
+  color: #012;
+  border: 2px solid #012;
+}
+
+.srv-accordion-toggle[aria-expanded="true"] {
+  background: #0D8;
+  color: #012;
+  border-radius: 20px 20px 0 0;
+  border-bottom: 2px solid #012;
+}
+
+.srv-accordion-panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .28s ease, padding .2s ease;
+  padding: 0 16px;
+  border-left: 2px solid #012;
+  border-right: 2px solid #012;
+  border-radius: 0 0 20px 20px;
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.srv-accordion-panel p {
+  margin: 12px 0 16px;
+  color: #012;
+}
+
 .service-text-box {
   padding: 25px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
 }
 
 p.excerpt {
@@ -134,7 +459,15 @@ p.excerpt {
 
 .srv-section {
   background-color: #fff;
-  padding: 50px 5px 50px;
+}
+
+.srv-intro-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #012;
+  line-height: 1.1;
+  margin-bottom: 20px;
 }
 
 .srv-text {
@@ -150,7 +483,7 @@ p.excerpt {
   }
 }
 
-.srv-text-para{
+.srv-text-para {
   text-align: justify;
   text-justify: inter-word;
   padding: 50px;
@@ -158,7 +491,7 @@ p.excerpt {
   padding-right: 0px;
 }
 
-.srv-text p .ul .li{
+.srv-text p .ul .li {
   font-size: 15px;
   line-height: 1.6;
   margin-bottom: 10px;
@@ -171,4 +504,147 @@ p.excerpt {
 
 .srv-text p:last-child {
   margin-bottom: 0;
+}
+
+
+/* industries hero with diagonal ribbon + dark overlay */
+.industries-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.industries-hero::before {
+  /* dark overlay */
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.industries-intro {
+  color: #012;
+}
+
+.industries-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #012;
+  line-height: 1.1;
+}
+
+/* icons grid on the right */
+.icons-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px 28px;
+  justify-items: center;
+  align-items: center;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  width: 100%;
+  max-width: 160px;
+  cursor: default;
+  outline: none;
+}
+
+.srv-circle {
+  width: 86px;
+  height: 86px;
+  background: #0D8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform .18s ease, background .18s ease;
+}
+
+.srv-circle i {
+  transform: rotate(-45deg);
+  font-size: 24px;
+  color: #fff;
+}
+
+.icon-item:focus .srv-circle,
+.icon-item:hover .srv-circle {
+  transform: rotate(45deg);
+  background: #012;
+}
+
+.srv-circle-label {
+  font-family: 'Poppins', sans-serif;
+  color: #012;
+}
+
+/* responsive adjustments */
+@media (max-width: 992px) {
+  .icons-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .industries-left {
+    text-align: center;
+    padding-bottom: 18px;
+  }
+
+  .industries-title {
+    font-size: 1.8rem;
+  }
+
+  .industries-intro {
+    max-width: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .industries-hero::after {
+    display: none;
+  }
+
+  /* hide ribbon on small screens */
+  .row.align-items-center {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .icons-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .srv-circle {
+    width: 72px;
+    height: 72px;
+  }
+
+  .srv-circle i {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .icons-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .industries-title {
+    font-size: 1.4rem;
+  }
+
+  .srv-circle {
+    width: 64px;
+    height: 64px;
+  }
+
+  .srv-circle i {
+    font-size: 18px;
+  }
 }
