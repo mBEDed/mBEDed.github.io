@@ -461,6 +461,15 @@ p.excerpt {
   background-color: #fff;
 }
 
+.srv-intro-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #012;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
 .srv-text {
   text-align: justify;
   text-justify: inter-word;
@@ -499,64 +508,143 @@ p.excerpt {
 
 
 /* industries hero with diagonal ribbon + dark overlay */
-				.industries-hero {
-					position: relative;
-					overflow: hidden;
-				}
-				.industries-hero::before {
-					/* dark overlay */
-					content: "";
-					position: absolute;
-					inset: 0;
-					pointer-events: none;
-				}
-				.industries-intro { color: #012;}
-        .industries-title { font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 2rem; color: #012; line-height:1.1; }
+.industries-hero {
+  position: relative;
+  overflow: hidden;
+}
 
-				/* icons grid on the right */
-				.icons-grid {
-					display: grid;
-					grid-template-columns: repeat(3, 1fr);
-					gap: 18px 28px;
-					justify-items: center;
-					align-items: center;
-				}
-				.icon-item { display:flex; flex-direction:column; align-items:center; gap:10px; text-align:center; width: 100%; max-width: 160px; cursor: default; outline: none; }
-				.diamond {
-					width: 86px;
-					height: 86px;
-					background: #0D8;
-					border-radius: 50%;
-					display:flex;
-					align-items:center;
-					justify-content:center;
-					transition: transform .18s ease, background .18s ease;
-				}
-				.diamond i { transform: rotate(-45deg); font-size:24px; color: #fff; }
-				.icon-item:focus .diamond,
-				.icon-item:hover .diamond {
-					transform: rotate(45deg);
-					background: #012;
-				}
-				.diamond-label { font-family: 'Poppins', sans-serif; color: #012; font-weight:600; font-size:0.86rem; }
+.industries-hero::before {
+  /* dark overlay */
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
 
-				/* responsive adjustments */
-				@media (max-width: 992px) {
-					.icons-grid { grid-template-columns: repeat(4, minmax(0,1fr)); gap:14px; }
-					.industries-left { text-align:center; padding-bottom:18px; }
-					.industries-title { font-size:1.8rem; }
-					.industries-intro { max-width: none; }
-				}
-				@media (max-width: 768px) {
-					.industries-hero::after { display:none; } /* hide ribbon on small screens */
-					.row.align-items-center { display:flex; flex-direction:column-reverse; }
-					.icons-grid { grid-template-columns: repeat(2, 1fr); gap:12px; }
-					.diamond { width: 72px; height:72px; }
-					.diamond i { font-size:20px; }
-				}
-				@media (max-width: 480px) {
-					.icons-grid { grid-template-columns: repeat(2, 1fr); gap:10px; }
-					.industries-title { font-size:1.4rem; }
-					.diamond { width: 64px; height:64px; }
-					.diamond i { font-size:18px; }
-				}
+.industries-intro {
+  color: #012;
+}
+
+.industries-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #012;
+  line-height: 1.1;
+}
+
+/* icons grid on the right */
+.icons-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px 28px;
+  justify-items: center;
+  align-items: center;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  width: 100%;
+  max-width: 160px;
+  cursor: default;
+  outline: none;
+}
+
+.srv-circle {
+  width: 86px;
+  height: 86px;
+  background: #0D8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform .18s ease, background .18s ease;
+}
+
+.srv-circle i {
+  transform: rotate(-45deg);
+  font-size: 24px;
+  color: #fff;
+}
+
+.icon-item:focus .srv-circle,
+.icon-item:hover .srv-circle {
+  transform: rotate(45deg);
+  background: #012;
+}
+
+.srv-circle-label {
+  font-family: 'Poppins', sans-serif;
+  color: #012;
+}
+
+/* responsive adjustments */
+@media (max-width: 992px) {
+  .icons-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .industries-left {
+    text-align: center;
+    padding-bottom: 18px;
+  }
+
+  .industries-title {
+    font-size: 1.8rem;
+  }
+
+  .industries-intro {
+    max-width: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .industries-hero::after {
+    display: none;
+  }
+
+  /* hide ribbon on small screens */
+  .row.align-items-center {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .icons-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .srv-circle {
+    width: 72px;
+    height: 72px;
+  }
+
+  .srv-circle i {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .icons-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .industries-title {
+    font-size: 1.4rem;
+  }
+
+  .srv-circle {
+    width: 64px;
+    height: 64px;
+  }
+
+  .srv-circle i {
+    font-size: 18px;
+  }
+}
