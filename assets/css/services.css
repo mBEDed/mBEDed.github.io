@@ -121,7 +121,24 @@
   background-position: center;
 }
 
+.img-pds {
+  background: url("/assets/img/services/pcb-designing.png") no-repeat center/cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-pms {
+  background: url("/assets/img/services/PCB-Manufacturing.jpg") no-repeat center/cover;
+  background-size: cover;
+  background-position: center;
+}
+
 .srv-intro {
+  background-color: rgba(0, 0, 0, 0.06);
+  padding: 100px 300px;
+}
+
+.srv-caps {
   background-color: rgba(0, 0, 0, 0.06);
   padding: 100px 300px;
 }
@@ -165,9 +182,43 @@
   color: #012;
 }
 
+.srv-card-caps {
+  background-color: #012;
+  color: #0D8;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px 25px;
+  height: 220px;
+}
+
+.srv-card-caps h3 {
+  color: #fff;
+}
+
+.srv-card-caps p {
+  color: #fff;
+}
+
+.srv-card-caps:hover {
+  background-color: #0D8;
+  color: #fff;
+}
+
+.srv-card-caps:hover h3 {
+  color: #012;
+}
+
+.srv-card-caps:hover p {
+  color: #012;
+}
+
 .srv-abt {
   padding: 100px 300px;
   background: rgba(0, 0, 0, 0.06);
+}
+
+.cta-section {
+  padding: 100px 300px;
 }
 
 .srv-about-section {
