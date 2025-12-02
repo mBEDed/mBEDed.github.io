@@ -133,6 +133,12 @@
   background-position: center;
 }
 
+.img-bs {
+  background: url("/assets/img/services/bom-sourcing.jpg") no-repeat center/cover;
+  background-size: cover;
+  background-position: center;
+}
+
 .srv-intro {
   background-color: rgba(0, 0, 0, 0.06);
   padding: 100px 300px;
