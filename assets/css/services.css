@@ -151,6 +151,12 @@
   background-position: center;
 }
 
+.img-sd {
+  background: url("/assets/img/services/Software-Development-Services.jpg") no-repeat center/cover;
+  background-size: cover;
+  background-position: center;
+}
+
 .srv-intro {
   background-color: rgba(0, 0, 0, 0.06);
   padding: 100px 300px;
@@ -234,6 +240,36 @@
   color: #012;
 }
 
+.srv-cardx {
+  background-color: #012;
+  color: #0D8;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px 25px;
+  height: 250px;
+}
+
+.srv-cardx h3 {
+  color: #fff;
+}
+
+.srv-cardx p {
+  color: #fff;
+}
+
+.srv-cardx:hover {
+  background-color: #0D8;
+  color: #fff;
+}
+
+.srv-cardx:hover h3 {
+  color: #012;
+}
+
+.srv-cardx:hover p {
+  color: #012;
+}
+
 .srv-card-assm {
   background-color: #012;
   color: #0D8;
@@ -304,6 +340,14 @@
   padding: 100px 300px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.06);
+}
+
+.flowchart-card {
+  text-align: center;
+  border-radius: 20px;
+  border: #0D8 2px solid;
+  padding: 20px 25px;
+  height: 250px;
 }
 
 .flow-chart {
