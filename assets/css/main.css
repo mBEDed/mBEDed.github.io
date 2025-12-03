@@ -3009,36 +3009,6 @@ span.comment-date {
   margin-bottom: 200px;
 }
 
-.home-srv-card {
-  background-color: #012;
-  color: #0D8;
-  text-align: center;
-  border-radius: 20px;
-  padding: 50px 25px;
-  height: 250px;
-}
-
-.home-srv-card h3 {
-  color: #fff;
-}
-
-.home-srv-card p {
-  color: #fff;
-}
-
-.home-srv-card:hover {
-  background-color: #0D8;
-  color: #fff;
-}
-
-.home-srv-card:hover h3 {
-  color: #012;
-}
-
-.home-srv-card:hover p {
-  color: #012;
-}
-
 p.home-testimonial-body {
   font-size: 17px;
   font-style: italic;
@@ -3149,24 +3119,18 @@ p.home-testimonial-body {
 .indus-carousel-inner:hover .indus-scroll-track {
   animation-play-state: paused;
 }
+
 /* Featured Services */
 .home-srv-chiplet {
   padding: 50px 0;
 }
 
 .home-srv-card {
-  background: #fff;
+  background: #0D8;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  height: 100%;
-  margin-bottom: 30px;
-}
-
-.home-srv-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 .home-srv-card h3 {
@@ -3178,4 +3142,16 @@ p.home-testimonial-body {
 .home-srv-card p {
   color: #555;
   line-height: 1.6;
+}
+
+.home-srv-card:hover {
+  background: #012;
+}
+
+.home-srv-card:hover h3 {
+  color: #fff;
+}
+
+.home-srv-card:hover p {
+  color: #0D8;
 }
