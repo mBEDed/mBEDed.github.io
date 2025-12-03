@@ -3149,3 +3149,33 @@ p.home-testimonial-body {
 .indus-carousel-inner:hover .indus-scroll-track {
   animation-play-state: paused;
 }
+/* Featured Services */
+.home-srv-chiplet {
+  padding: 50px 0;
+}
+
+.home-srv-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+  margin-bottom: 30px;
+}
+
+.home-srv-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.home-srv-card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #012;
+}
+
+.home-srv-card p {
+  color: #555;
+  line-height: 1.6;
+}
