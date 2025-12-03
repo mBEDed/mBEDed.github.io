@@ -151,6 +151,12 @@
   background-position: center;
 }
 
+.img-fd {
+  background: url('/assets/img/services/firmware-development-services.jpg') no-repeat center/cover;
+  background-size: cover;
+  background-position: center;
+}
+
 .img-sd {
   background: url("/assets/img/services/Software-Development-Services.jpg") no-repeat center/cover;
   background-size: cover;
@@ -342,12 +348,31 @@
   background-color: rgba(0, 0, 0, 0.06);
 }
 
+.flowchart-wrapper {
+  flex-wrap: initial;
+}
+
 .flowchart-card {
   text-align: center;
   border-radius: 20px;
   border: #0D8 2px solid;
   padding: 20px 25px;
   height: 250px;
+}
+
+.srv-flowchart-card {
+  text-align: center;
+  border-radius: 20px;
+  border: #0D8 2px solid;
+  padding: 20px 25px;
+  height: 250px;
+  width: 230px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.srv-flowchart-item {
+  width: 150px;
 }
 
 .flow-chart {
@@ -1110,4 +1135,10 @@ p.excerpt {
   .ig-infographic {
     padding: 18px 14px 20px;
   }
+}
+
+.img-fd {
+  background: url('/assets/img/services/service-bg-4.jpg') no-repeat center/cover;
+  background-size: cover;
+  background-position: center;
 }
