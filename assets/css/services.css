@@ -545,6 +545,10 @@
   background-image: url(../img/services/service-bg-11.jpg);
 }
 
+.service-bg-12 {
+  background-image: url(../img/services/service-bg-12.jpg);
+}
+
 /* scoped minimal styles for accordion */
 .srv-intro-accordion {
   margin: 22px 0;
@@ -1135,10 +1139,4 @@ p.excerpt {
   .ig-infographic {
     padding: 18px 14px 20px;
   }
-}
-
-.img-fd {
-  background: url('/assets/img/services/service-bg-4.jpg') no-repeat center/cover;
-  background-size: cover;
-  background-position: center;
 }
