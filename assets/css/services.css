@@ -139,6 +139,12 @@
   background-position: center;
 }
 
+.img-pas {
+  background: url("/assets/img/services/pcb-assembly-and-soldering.jpg") no-repeat center/cover;
+  background-size: cover;
+  background-position: center;
+}
+
 .srv-intro {
   background-color: rgba(0, 0, 0, 0.06);
   padding: 100px 300px;
@@ -146,6 +152,10 @@
 
 .srv-caps {
   background-color: rgba(0, 0, 0, 0.06);
+  padding: 100px 300px;
+}
+
+.srv-assm {
   padding: 100px 300px;
 }
 
@@ -215,6 +225,36 @@
 }
 
 .srv-card-caps:hover p {
+  color: #012;
+}
+
+.srv-card-assm {
+  background-color: #012;
+  color: #0D8;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px 25px;
+  height: 270px;
+}
+
+.srv-card-assm h3 {
+  color: #fff;
+}
+
+.srv-card-assm p {
+  color: #fff;
+}
+
+.srv-card-assm:hover {
+  background-color: #0D8;
+  color: #fff;
+}
+
+.srv-card-assm:hover h3 {
+  color: #012;
+}
+
+.srv-card-assm:hover p {
   color: #012;
 }
 
@@ -420,6 +460,14 @@
 
 .service-bg-9 {
   background-image: url(../img/services/service-bg-9.jpg);
+}
+
+.service-bg-10 {
+  background-image: url(../img/services/service-bg-10.jpg);
+}
+
+.service-bg-11 {
+  background-image: url(../img/services/service-bg-11.jpg);
 }
 
 /* scoped minimal styles for accordion */
