@@ -859,9 +859,10 @@ ul.sub-menu li:last-child {
 
 .mean-container .mean-nav ul li a.mean-expand {
   font-size: 16px;
-  height: 10px;
-  line-height: 10px;
+  height: 15px;
+  line-height: 15px;
   width: 15px;
+  border-radius: 20px 0px 0px 20px;
 }
 
 .mean-container a.meanmenu-reveal {
@@ -3012,7 +3013,6 @@ span.comment-date {
 p.home-testimonial-body {
   font-size: 17px;
   font-style: italic;
-  width: 700px;
   margin: 0 auto;
   line-height: 1.8;
   color: #012;
