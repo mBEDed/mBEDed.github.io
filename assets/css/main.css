@@ -908,6 +908,12 @@ nav.main-menu li:hover>a {
   color: #0D8;
 }
 
+nav.main-menu ul li ul.sub-menu li.current-list-item>a {
+  color: #0D8;
+  background-color: #012;
+  border-radius: 40px;
+}
+
 nav.main-menu li a {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
