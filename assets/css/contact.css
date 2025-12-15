@@ -1,0 +1,167 @@
+/* -----------------------------------------------------------------------------
+
+# Contact Page Styles
+
+----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ Contact Form Input Section Styles
+----------------------------------------------------------------------------- */
+
+.contact-form-title {
+  margin-bottom: 25px;
+}
+
+.contact-form-title h2 {
+  font-size: 25px;
+}
+
+.contact-form-title p {
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.contact-form form p {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.contact-form form p input[type=text],
+.contact-form form p input[type=tel],
+.contact-form form p input[type=email] {
+  width: calc(50% - 7.5px);
+  padding: 15px;
+  border: 1px solid #012;
+  border-radius: 25px;
+  margin-bottom: 0;
+}
+
+.contact-form form p input[type=text]:first-child,
+.contact-form form p input[type=tel]:first-child {
+  margin-right: 0;
+}
+
+.contact-form form p input[type=email],
+.contact-form form p input[type=text]:last-child,
+.contact-form form p input[type=tel]:last-child {
+  margin-left: 0;
+  text-align: left;
+}
+
+.contact-form form p textarea {
+  border: 1px solid #012;
+  padding: 15px;
+  height: 200px;
+  border-radius: 25px;
+  width: 100%;
+  resize: none;
+}
+
+
+/* -----------------------------------------------------------------------------
+ Contact Form Box Section Styles
+----------------------------------------------------------------------------- */
+
+.contact-form-wrap {
+  background-color: #fff;
+  padding: 45px 30px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .contact-form-wrap {
+    text-align: center;
+  }
+}
+
+.contact-form-box {
+  margin-bottom: 30px;
+}
+
+.contact-form-box h4 {
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.contact-form-box h4 i {
+  left: -13%;
+  color: #0D8;
+  top: 2px;
+}
+
+.contact-form-box p {
+  line-height: 1.8;
+  opacity: 0.8;
+}
+
+.contact-form-wrap .contact-form-box:last-child {
+  margin: 0;
+}
+
+/* -----------------------------------------------------------------------------
+ Contact Form Status Section Styles
+----------------------------------------------------------------------------- */
+
+#form_status span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  background: #f8d7da;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 0px;
+  border-radius: 3px;
+  margin-bottom: 18px;
+}
+
+#form_status span.loading {
+  color: #0D8;
+  background: #fff;
+  border-radius: 3px;
+  padding: 18px 0px;
+}
+
+#form_status span.notice {
+  color: yellow;
+}
+
+#form_status .success {
+  color: #fff;
+  text-align: center;
+  background: #0D8;
+  border-radius: 3px;
+  padding: 30px 0px;
+}
+
+#form_status .success i {
+  color: #fff;
+  font-size: 45px;
+  margin-bottom: 14px;
+}
+
+#form_status .success h3 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* -----------------------------------------------------------------------------
+ Find Location Section Styles
+----------------------------------------------------------------------------- */
+
+.find-location p {
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+  font-weight: 600;
+  padding: 30px 0;
+}
+
+.find-location p i {
+  margin-right: 10px;
+  color: #0D8;
+}
