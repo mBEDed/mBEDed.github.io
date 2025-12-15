@@ -1479,6 +1479,22 @@ p.excerpt {
     max-width: 400px;
     margin: 0 auto;
   }
+
+  .flowchart-wrapper {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .flowchart-item {
+    flex: 0 0 calc(50% - 15px);
+    max-width: calc(50% - 15px);
+  }
+
+  .srv-flowchart-card {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -1516,6 +1532,11 @@ p.excerpt {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
+  }
+
+  .flowchart-item {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 
   .srv-contact-card {

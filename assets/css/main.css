@@ -1088,7 +1088,7 @@ a.mobile-show {
 
 .logo-scroll-track {
   display: inline-flex;
-  animation: scroll-reverse 30s linear infinite;
+  animation: scroll 30s linear infinite;
   gap: 60px;
 }
 
