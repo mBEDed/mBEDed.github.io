@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="HSRP Recognition System - Case Study | mBEDed Systems">
+    <meta name="description"
+        content="Open-source High-Security Registration Plate recognition system using YOLOv8 and Tesseract OCR for real-time vehicle identification with 99.2% accuracy.">
+    <meta name="author" content="mBEDed Systems">
+
+    <!-- title -->
+    <title>HSRP Recognition System - Case Study | mBEDed Systems</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- mean menu css -->
+    <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+    <!-- page specific -->
+    <link rel="stylesheet" href="assets/css/casestudies.css">
+    <!-- main style -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- page specific override -->
+    <link rel="stylesheet" href="assets/css/casestudies.css">
+    <!-- responsive -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="top-header-area" id="sticker">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 text-center">
+                    <div class="main-menu-wrap">
+                        <!-- logo -->
+                        <div class="site-logo">
+                            <a href="/">
+                                <img src="assets/img/logo.svg" alt="">
+                            </a>
+                        </div>
+                        <!-- logo -->
+
+                        <!-- menu start -->
+                        <nav class="main-menu">
+                            <ul>
+                                <li><a href="/">Home</a> </li>
+                                <li><a href="services">Services</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="electronic-product-design">Electronic Product Design</a></li>
+                                        <li><a href="electronic-research-and-development">Electronic Research and
+                                                Development</a></li>
+                                        <li><a href="schematic-design-services">Schematic Design Services</a></li>
+                                        <li><a href="pcb-design-services">PCB Design Services</a></li>
+                                        <li><a href="pcb-manufacturing">PCB Manufacturing</a></li>
+                                        <li><a href="bom-sourcing">BOM Sourcing</a></li>
+                                        <li><a href="pcb-assembly-and-soldering">PCB Assembly and Soldering</a></li>
+                                        <li><a href="firmware-development-services">Firmware Development Services</a>
+                                        </li>
+                                        <li><a href="software-development">Software Development</a></li>
+                                        <li><a href="iot-development-services">IoT Development Services</a></li>
+                                    </ul>
+                                </li>
+                                <!-- <li><a href="shop.html">Shop</a></li> -->
+                                <li class="current-list-item"><a href="casestudies">Case Studies</a></li>
+                                <li><a href="about">About</a></li>
+                                <li><a href="career">Career</a></li>
+                                <li><a href="contact">Contact</a></li>
+                                <li>
+                                    <div class="header-icons">
+                                        <a class="mobile-hide search-bar-icon" href="#"><i
+                                                class="fas fa-search"></i></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                        <a class="mobile-show search-bar-icon" href="#"><i class="fas fa-search"></i></a>
+                        <div class="mobile-menu"></div>
+                        <!-- menu end -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end header -->
+
+    <!-- search area -->
+    <div class="search-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <span class="close-btn"><i class="fas fa-window-close"></i></span>
+                    <div class="search-bar">
+                        <div class="search-bar-tablecell">
+                            <h3>Search For:</h3>
+                            <input type="text" placeholder="Keywords">
+                            <button type="submit">Search <i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end search area -->
+
+    <!-- breadcrumb-section -->
+    <div class="breadcrumb-section breadcrumb-bg pb-30">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <div class="breadcrumb-text">
+                        <p>Open Source Project</p>
+                        <h1>HSRP Recognition System</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end breadcrumb section -->
+
+    <!-- case study detail section -->
+    <div class="cs-detail-section">
+        <!-- Hero / Overview -->
+        <div class="cs-detail-into">
+            <div class="container">
+                <div class="row mt-80 mb-80">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="cs-text">
+                            <p class="top-sub text-center">Open Source</p>
+                            <div class="section-title">
+                                <h3 class="text-center">AI-Powered <span class="teal-text">HSRP</span> Recognition</h3>
+                            </div>
+                            <p>Our <b>High-Security Registration Plate (HSRP)</b> recognition system is an open-source
+                                project developed for the community, by the community. It combines state-of-the-art
+                                computer vision with deep learning to provide accurate vehicle identification.</p>
+                            <p>The system leverages cutting-edge ML models and OCR technology to deliver <b>real-time
+                                    plate detection</b> suitable for diverse applications including parking management,
+                                traffic monitoring, and security surveillance.</p>
+                            <p>As a community-driven initiative, we welcome contributions and collaborations from
+                                developers worldwide. The project has been successfully deployed across multiple use
+                                cases demonstrating versatility and reliability.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="cs-bg"
+                            style="background-image: url('assets/img/case-studies/hsrp-recognition.jpg'); min-height: 400px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Key Statistics -->
+        <div class="cs-stats-section">
+            <div class="container">
+                <div class="row pt-80 mb-30">
+                    <div class="col-12">
+                        <div class="section-title text-center">
+                            <h3>Project <span class="teal-text">Metrics</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pb-50 mb-30 text-center">
+                    <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="cs-stat-card">
+                            <div class="cs-stat-number">99.2%</div>
+                            <div class="cs-stat-label">Detection Accuracy</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="cs-stat-card">
+                            <div class="cs-stat-number">&lt;100ms</div>
+                            <div class="cs-stat-label">Processing Time</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="cs-stat-card">
+                            <div class="cs-stat-number">3+</div>
+                            <div class="cs-stat-label">Formats Supported</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Key Features -->
+        <div class="cs-detail-objective">
+            <div class="container">
+                <div class="row mt-50 mb-50">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="cs-text-detailed">
+                            <div class="section-title text-center">
+                                <h3 style="line-height: 1;">Core <span class="teal-text">Technologies</span></h3>
+                            </div>
+                            <p>The HSRP recognition system is built on powerful ML frameworks:</p>
+                            <ul>
+                                <li><b>YOLOv8 ML Model</b> – Real-time object detection with enhanced accuracy</li>
+                                <li><b>PaddleOCR</b> – Industry-leading optical character recognition</li>
+                                <li><b>OpenCV</b> – Advanced image processing and computer vision</li>
+                                <li><b>Python Backend</b> – Flexible and extensible codebase</li>
+                                <li><b>REST API</b> – Easy integration with existing systems</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="cs-text-detailed">
+                            <div class="section-title text-center">
+                                <h3 style="line-height: 1;">Key <span class="teal-text">Features</span></h3>
+                            </div>
+                            <p>What makes our system stand out:</p>
+                            <ul>
+                                <li><b>Real-time Detection</b> – Process video streams at 10+ FPS</li>
+                                <li><b>Multi-language Support</b> – Recognition across 5+ regional scripts</li>
+                                <li><b>Cloud Integration</b> – Seamless data sync and storage</li>
+                                <li><b>Open API</b> – Community-driven integrations</li>
+                                <li><b>Edge Deployment</b> – Runs on embedded devices & Raspberry Pi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Results & Achievements -->
+        <div class="cs-results-section">
+            <div class="container">
+                <div class="row pt-80 mb-30">
+                    <div class="col-12">
+                        <div class="section-title text-center">
+                            <h3>Real-World <span class="teal-text">Applications</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-50">
+                    <div class="col-lg-3 col-md-6 mb-30">
+                        <div class="cs-result-card">
+                            <div class="cs-result-icon"><i class="fas fa-parking"></i></div>
+                            <div class="cs-result-number">2+</div>
+                            <h4>Parking Facilities</h4>
+                            <p>Automated entry/exit management with instant vehicle identification and billing
+                                integration.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-30">
+                        <div class="cs-result-card">
+                            <div class="cs-result-icon"><i class="fas fa-traffic-light"></i></div>
+                            <div class="cs-result-number">10+</div>
+                            <h4>Traffic Points</h4>
+                            <p>Smart traffic monitoring for congestion analysis and violation detection.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-30">
+                        <div class="cs-result-card">
+                            <div class="cs-result-icon"><i class="fas fa-shield-alt"></i></div>
+                            <div class="cs-result-number">30+</div>
+                            <h4>Security Gates</h4>
+                            <p>Authorized vehicle access control for residential and commercial complexes.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-30">
+                        <div class="cs-result-card">
+                            <div class="cs-result-icon"><i class="fas fa-users"></i></div>
+                            <div class="cs-result-number">10+</div>
+                            <h4>Active Contributors</h4>
+                            <p>Global developer community actively contributing to improvements and new features.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- System Features -->
+        <div class="cs-system-features">
+            <div class="container">
+                <div class="row pt-80 mb-30">
+                    <div class="col-12">
+                        <div class="section-title text-center">
+                            <h3>System <span class="teal-text">Capabilities</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pb-50 mt-30">
+                    <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="cs-feature-item">
+                            <i class="fas fa-check-circle teal-text"></i>
+                            <div>
+                                <strong>YOLOv8 Detection</strong>
+                                <p>State-of-the-art object detection with 99.2% accuracy on HSRP plates.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="cs-feature-item">
+                            <i class="fas fa-check-circle teal-text"></i>
+                            <div>
+                                <strong>PaddleOCR</strong>
+                                <p>High-accuracy text extraction supporting multiple fonts and scripts.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="cs-feature-item">
+                            <i class="fas fa-check-circle teal-text"></i>
+                            <div>
+                                <strong>Multi-Format Support</strong>
+                                <p>Recognition across Standard, Special and Bharat series formats.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="cs-feature-item">
+                            <i class="fas fa-check-circle teal-text"></i>
+                            <div>
+                                <strong>Cloud Processing</strong>
+                                <p>Scalable cloud infrastructure for data storage and analytics.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="cs-feature-item">
+                            <i class="fas fa-check-circle teal-text"></i>
+                            <div>
+                                <strong>Open API</strong>
+                                <p>RESTful API for seamless third-party integrations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="cs-feature-item">
+                            <i class="fas fa-check-circle teal-text"></i>
+                            <div>
+                                <strong>Edge Computing</strong>
+                                <p>Deploy on Raspberry Pi and embedded systems for offline use.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Performance Comparison -->
+        <div class="cs-business-impact">
+            <div class="container">
+                <div class="row pt-80 mb-30">
+                    <div class="col-12">
+                        <div class="section-title text-center">
+                            <h3>Performance <span class="teal-text">Benchmarks</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pb-80 mb-30">
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="cs-table-wrapper">
+                            <table class="cs-table">
+                                <thead>
+                                    <tr>
+                                        <th>Metric</th>
+                                        <th>Traditional Systems</th>
+                                        <th>Our HSRP System</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Detection Accuracy</td>
+                                        <td>75-85%</td>
+                                        <td class="teal-text"><strong>99.2%</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Processing Speed</td>
+                                        <td>200-500ms</td>
+                                        <td class="teal-text"><strong>&lt;100ms</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Multi-Format Support</td>
+                                        <td>Standard Format only</td>
+                                        <td class="teal-text"><strong>3+ Formats</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Night Vision Accuracy</td>
+                                        <td>50-60%</td>
+                                        <td class="teal-text"><strong>94.5%</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Integration Complexity</td>
+                                        <td>High (proprietary)</td>
+                                        <td class="teal-text"><strong>Low (Open API)</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cost</td>
+                                        <td>Commercial licensing</td>
+                                        <td class="teal-text"><strong>Open Source (Free)</strong></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Community & Contribution -->
+        <div class="cs-client-success">
+            <div class="container">
+                <div class="row pt-50 pb-30 mb-50">
+                    <div class="col-lg-6 col-md-12 mt-50">
+                        <div class="cs-quote">
+                            <div class="cs-quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <blockquote>
+                                "This open-source HSRP system transformed our parking management. The accuracy is
+                                outstanding and the community support is incredible. We deployed it across 20 locations
+                                within a month."
+                            </blockquote>
+                            <div class="cs-quote-author">— Community Deployment</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="cs-text">
+                            <div class="section-title text-center">
+                                <h3 style="line-height: 1;">Community <span class="teal-text">Driven</span></h3>
+                            </div>
+                            <p>Built by developers, for developers. Join our growing community:</p>
+                            <ul>
+                                <li><b>10+ Contributors</b> – Active participation from worldwide developers</li>
+                                <li><b>3+ Forks</b> – Customized implementations across industries</li>
+                                <li><b>Continuous Updates</b> – Regular updates and new features</li>
+                                <li><b>Comprehensive Documentation</b> – Easy-to-follow guides and tutorials</li>
+                            </ul>
+                            <p>Whether you want to deploy, modify, or contribute—our community is here to help.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Applicable Industries -->
+        <div class="cs-industry-applicable">
+            <div class="container">
+                <div class="row mb-50">
+                    <div class="col-12">
+                        <div class="section-title text-center">
+                            <h3>Use <span class="teal-text">Cases</span></h3>
+                            <p>The HSRP recognition system can be deployed across various sectors:</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-50 text-center">
+                    <div class="col-lg-2 col-md-4 col-6 mb-30">
+                        <div class="cs-industry-item">
+                            <i class="fas fa-parking"></i>
+                            <p>Parking Management</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6 mb-30">
+                        <div class="cs-industry-item">
+                            <i class="fas fa-road"></i>
+                            <p>Traffic Monitoring</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6 mb-30">
+                        <div class="cs-industry-item">
+                            <i class="fas fa-building"></i>
+                            <p>Smart Buildings</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6 mb-30">
+                        <div class="cs-industry-item">
+                            <i class="fas fa-university"></i>
+                            <p>Government</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6 mb-30">
+                        <div class="cs-industry-item">
+                            <i class="fas fa-warehouse"></i>
+                            <p>Logistics</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6 mb-30">
+                        <div class="cs-industry-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <p>Security</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CTA -->
+        <div class="row mb-50">
+            <div class="col-12 text-center">
+                <p class="split-btn">
+                    <a class="split-btn-primary btn" href="contact">Get in touch</a>
+                    <a class="split-btn-secondary sbtn" href="https://github.com/userHarpreet/lpr_dev/"
+                        target="_blank">View on
+                        GitHub</a>
+                </p>
+                <p style="margin-top: 20px;"><a href="casestudies" class="read-more-btn">← Back to Case Studies</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- end case study detail section -->
+
+    <!-- footer -->
+    <div class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 no-padding-left">
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="https://wa.me/917009701629" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            </li>
+                            <li><a href="https://x.com/mbededsystems" target="_blank"><svg
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                        style="width: 16px; height: 16px; color: white;">
+                                        <path
+                                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                                    </svg></a></li>
+                            <li><a href="https://www.instagram.com/mbededsystems/" target="_blank"><i
+                                        class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://in.linkedin.com/company/mbededsystems" target="_blank"><i
+                                        class="fab fa-linkedin"></i></a></li>
+                            <li><a href="https://www.youtube.com/@mbededsystems" target="_blank"><i
+                                        class="fab fa-youtube"></i></a></li>
+                            <li><a href="https://github.com/mBEDed" target="_blank"><i class="fab fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 no-padding-left text-left">
+                    <div class="footer-box get-in-touch">
+                        <p>Copyrights &copy; - <a href="https://mBEDed.Systems/">mBEDed Systems (OPC) Pvt. Ltd.</a>,
+                            All
+                            Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="footer-box subscribe">
+                        <form
+                            action="https://docs.google.com/forms/d/e/1FAIpQLSc29Fjn5V5jePMqiMM2GEJyRdbq23Z27tV8tywQ239a13UfVA/formResponse"
+                            method="POST" target="hidden_iframe" id="newsletter-form">
+                            <input type="email" name="entry.1014518782" placeholder="Sign up & Stay updated!" required>
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                        <div id="newsletter_status" style="margin-top: 10px; font-size: 12px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer -->
+
+    <!-- jquery -->
+    <script src="assets/js/jquery-1.11.3.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- count down -->
+    <script src="assets/js/jquery.countdown.js"></script>
+    <!-- isotope -->
+    <script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
+    <!-- waypoints -->
+    <script src="assets/js/waypoints.js"></script>
+    <!-- owl carousel -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- magnific popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- mean menu -->
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <!-- sticker js -->
+    <script src="assets/js/sticker.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Hidden iframe for Google Forms -->
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+        onload="if(submitted){window.location='hsrp-recognition-case-study';}"></iframe>
+
+    <!-- Contact and Newsletter form handlers -->
+    <script>
+        var submitted = false;
+        // Newsletter form handler
+        function handleNewsletterSubmit(event) {
+            const statusDiv = document.getElementById('newsletter_status');
+            statusDiv.innerHTML = '<p style="color: #28a745; font-size: 12px;">✓ Subscribed successfully!</p>';
+            submitted = true;
+            setTimeout(function () {
+                document.getElementById('newsletter-form').reset();
+                statusDiv.innerHTML = '';
+            }, 3000);
+        }
+
+        // Add event listeners when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function () {
+            const newsletterForm = document.getElementById('newsletter-form');
+
+            if (newsletterForm) {
+                newsletterForm.addEventListener('submit', handleNewsletterSubmit);
+            }
+        });
+    </script>
+
+</body>
+
+</html>

@@ -7,7 +7,7 @@
 .video-container {
   position: absolute;
   top: 0px;
-  left: 0px; 
+  left: 0px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -17,22 +17,24 @@
   position: relative;
   z-index: 1;
 }
+
 .video-container:after {
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      content: "";
-      background-color: #012;
-      opacity: 0.3;
-    }
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: #012;
+  opacity: 0.3;
+}
+
 video {
-			position: absolute;
-			z-index: 10;
-      height: 100%;
-			max-width: none;
-		}
+  position: absolute;
+  z-index: 10;
+  height: 100%;
+  max-width: none;
+}
 
 .cs-bg {
   background-image: url(../img/abt.jpg);
@@ -75,7 +77,7 @@ video {
   }
 }
 
-.cs-text-para{
+.cs-text-para {
   text-align: justify;
   text-justify: inter-word;
   padding: 50px;
@@ -83,7 +85,7 @@ video {
   padding-right: 0px;
 }
 
-.cs-text p .ul .li{
+.cs-text p .ul .li {
   font-size: 15px;
   line-height: 1.6;
   margin-bottom: 10px;
@@ -96,4 +98,420 @@ video {
 
 .cs-text p:last-child {
   margin-bottom: 0;
+}
+
+/* -----------------------------------------------------------------------------
+
+# Case Study Detail Page Styles
+
+----------------------------------------------------------------------------- */
+
+/* Challenge Cards */
+.challenge-section {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.cs-challenge-card {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.cs-challenge-card h4 {
+  text-align: center;
+}
+
+.cs-challenge-card p {
+  text-align: justify;
+}
+
+.cs-challenge-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.cs-challenge-icon {
+  width: 60px;
+  height: 60px;
+  background: #0D8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.cs-challenge-icon i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.cs-challenge-card h4 {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+  color: #012;
+}
+
+.cs-challenge-card p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+/* Detail Cards */
+.cs-text-detailed {
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  border-radius: 20px;
+  height: 100%;
+}
+
+.cs-text-detailed p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+/* Stat Cards */
+.cs-stats-section {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.cs-stat-card {
+  background: #012;
+  border-radius: 20px;
+  padding: 30px 20px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.cs-stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.cs-stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0D8;
+  margin-bottom: 5px;
+}
+
+.cs-stat-label {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* Result Cards */
+.cs-result-card {
+  background: #0D8;
+  border-radius: 20px;
+  padding: 30px 20px;
+  text-align: center;
+  height: 100%;
+  transition: all 0.3s ease;
+  border: 2px solid #012;
+}
+
+.cs-result-card:hover {
+  border-color: #0D8;
+}
+
+.cs-result-icon {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+}
+
+.cs-result-icon i {
+  font-size: 28px;
+  color: #0D8;
+}
+
+.cs-result-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.cs-result-card h4 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #012;
+}
+
+.cs-result-card p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+  color: #012;
+}
+
+/* Feature Items */
+
+.cs-system-features {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.cs-feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 20px;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.cs-feature-item:hover {
+  background: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.cs-feature-item>i {
+  font-size: 24px;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.cs-feature-item strong {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #012;
+}
+
+.cs-feature-item p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+  color: #012;
+}
+
+/* Comparison Table */
+.cs-table-wrapper {
+  overflow-x: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.cs-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.cs-table th,
+.cs-table td {
+  padding: 18px 20px;
+  text-align: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.cs-table th {
+  background: #012;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.cs-table th:first-child {
+  border-radius: 20px 0 0 0;
+}
+
+.cs-table th:last-child {
+  border-radius: 0 20px 0 0;
+}
+
+.cs-table tr:last-child td:first-child {
+  border-radius: 0 0 0 20px;
+}
+
+.cs-table tr:last-child td:last-child {
+  border-radius: 0 0 20px 0;
+}
+
+.cs-table tbody tr {
+  transition: background 0.2s ease;
+}
+
+.cs-table tbody tr:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.cs-table td {
+  font-size: 0.95rem;
+}
+
+.cs-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* client success */
+.cs-client-success {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.cs-client-success .cs-text {
+  padding: 40px;
+}
+
+.cs-client-success .cs-quote {
+  background: #012;
+  border-radius: 20px;
+  padding: 40px;
+  color: #fff;
+  position: relative;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cs-quote-icon {
+  color: #0D8;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+
+.cs-quote blockquote {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-style: italic;
+  margin: 0 0 20px;
+  opacity: 0.95;
+}
+
+.cs-quote-author {
+  font-size: 0.95rem;
+  color: #0D8;
+  font-weight: 600;
+}
+
+/* Industry Items */
+.cs-industry-item {
+  height: 100%;
+  padding: 25px 15px;
+  background: #012;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.cs-industry-item:hover {
+  transform: translateY(-5px);
+}
+
+.cs-industry-item:hover p {
+  color: #fff;
+}
+
+.cs-industry-item:hover i {
+  color: #0D8;
+}
+
+.cs-industry-item i {
+  font-size: 2rem;
+  color: #0D8;
+  margin-bottom: 10px;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+.cs-industry-item p {
+  font-size: 0.85rem;
+  margin-bottom: 0;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 991.96px) {
+
+  .cs-stat-number,
+  .cs-result-number {
+    font-size: 2rem;
+  }
+
+  .cs-quote {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 767.96px) {
+
+  .cs-challenge-card,
+  .cs-result-card,
+  .cs-stat-card {
+    padding: 25px 20px;
+  }
+
+  .cs-quote {
+    padding: 30px;
+  }
+
+  .cs-quote blockquote {
+    font-size: 1rem;
+  }
+
+  .cs-table th,
+  .cs-table td {
+    padding: 12px 15px;
+    font-size: 0.85rem;
+  }
+
+  .cs-feature-item {
+    padding: 15px;
+  }
+}
+
+.split-btn-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+}
+
+.split-btn-primary:hover {
+  background-color: #012;
+  border-radius: 24px;
+  border: 0px;
+  color: #0D8;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.split-btn-secondary {
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: #0D8;
+  padding: 12px 28px;
+  width: auto;
+  color: #012;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  border: 0px;
+}
+
+.split-btn-secondary:hover {
+  background-color: #012;
+  border-radius: 24px;
+  color: #0D8;
+  border: 0px;
 }
