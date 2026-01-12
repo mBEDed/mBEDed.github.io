@@ -192,11 +192,20 @@
   text-align: center;
   border-radius: 20px;
   padding: 20px 25px;
-  height: 200px;
+  height: auto;
+  min-height: 200px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .srv-card h3 {
   color: #fff;
+  font-size: 1.5rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
 }
 
 .srv-card p {
@@ -222,11 +231,20 @@
   text-align: center;
   border-radius: 20px;
   padding: 20px 25px;
-  height: 220px;
+  height: auto;
+  min-height: 220px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .srv-card-caps h3 {
   color: #fff;
+  font-size: 1.5rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
 }
 
 .srv-card-caps p {
@@ -252,11 +270,20 @@
   text-align: center;
   border-radius: 20px;
   padding: 20px 25px;
-  height: 250px;
+  height: auto;
+  min-height: 250px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .srv-cardx h3 {
   color: #fff;
+  font-size: 1.5rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
 }
 
 .srv-cardx p {
@@ -282,11 +309,20 @@
   text-align: center;
   border-radius: 20px;
   padding: 20px 25px;
-  height: 270px;
+  height: auto;
+  min-height: 270px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .srv-card-assm h3 {
   color: #fff;
+  font-size: 1.5rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
 }
 
 .srv-card-assm p {
