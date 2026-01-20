@@ -209,6 +209,7 @@ class NativeCarousel {
         if (Math.abs(diff) > 5) {
             this.wasDragging = true;
         }
+        this.triggerEvent('dragmove');
     }
 
     onDragEnd() {
